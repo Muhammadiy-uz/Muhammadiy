@@ -7,5 +7,6 @@ Huddi: https://www.caritate.md saytga uxshab
 
 ## Ishlatilayotgan dasturlar
 * Bootstrap v5.0.0-beta3: https://getbootstrap.com/
+* w3schools: https://w3schools.com
 * Prepros - Sahifani avto yangilash va SCSS > CSS da almashtirish uchun.
 * Lorem Images: https://picsum.photos

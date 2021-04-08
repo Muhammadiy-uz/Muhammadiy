@@ -14,3 +14,8 @@ Huddi: https://www.caritate.md saytga uxshab
 * Lazy images - v5.1.2: https://web.dev/browser-level-image-lazy-loading
 * HTML beautifier: http://minifycode.com/html-beautifier
 * CSS beautifier: https://css.github.io/csso/csso.html
+
+## Aloqa:
+Email: asakew@ya.ru
+
+Telegram: [Kanal](https://t.me/Muhammadiy_izdoshlari) / [Guruh](https://t.me/joinchat/OvEkUfpY5V5hY2Fi)

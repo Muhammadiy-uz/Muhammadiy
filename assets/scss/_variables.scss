@@ -374,7 +374,10 @@ $border-color:                $gray-300 !default;
 $border-radius:               .25rem !default;
 $border-radius-sm:            .2rem !default;
 $border-radius-lg:            .3rem !default;
+$border-radius-btn-asa:       .5rem;  
+$border-radius-asa:           1.3rem;  
 $border-radius-pill:          50rem !default;
+
 // scss-docs-end border-radius-variables
 
 // scss-docs-start box-shadow-variables
@@ -643,6 +646,7 @@ $btn-link-disabled-color:     $gray-600 !default;
 $btn-border-radius:           $border-radius !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
 $btn-border-radius-lg:        $border-radius-lg !default;
+$btn-border-radius-asa:       $border-radius-btn-asa;
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
@@ -1081,7 +1085,7 @@ $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer / 2 !default;
 $card-border-width:                 $border-width !default;
-$card-border-radius:                $border-radius !default;
+$card-border-radius:                $border-radius-asa !default;
 $card-border-color:                 rgba($black, .125) !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                $card-spacer-y / 2 !default;

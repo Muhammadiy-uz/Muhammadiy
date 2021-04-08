@@ -6,8 +6,8 @@ Yordamga muxtoj odamlar, nogironlarni davolanishiga e'lonlarni joylashtiradigan 
 Huddi: https://www.caritate.md saytga uxshab
 
 ## Foydalanilayotgan manbalar
-* CSS Kutubxona: **Bootstrap v5.0.0-beta3:** https://getbootstrap.com
-* w3schools: https://w3schools.com
+* CSS kutubxona: **Bootstrap v5.0.0-beta3:** https://getbootstrap.com
+* Veb darslar: w3schools: https://w3schools.com
 * Prepros - Sahifani avto yangilash va SCSS > CSS da almashtirish uchun.
 * Lorem images: https://picsum.photos
 

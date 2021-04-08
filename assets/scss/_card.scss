@@ -143,6 +143,9 @@
 
 .card-img,
 .card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
   border-radius: 1.3rem 1.3rem 0 0; 
   @include border-top-radius($card-inner-border-radius);
 }

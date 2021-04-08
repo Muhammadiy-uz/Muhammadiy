@@ -3800,6 +3800,10 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-top {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
   border-radius: 1.3rem 1.3rem 0 0;
   border-top-left-radius: calc(1.3rem - 1px);
   border-top-right-radius: calc(1.3rem - 1px); }

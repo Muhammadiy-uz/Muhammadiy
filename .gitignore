@@ -1,8 +1,5 @@
-
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
-*.map
 prepros-6.config
-assets/css/main.css.map

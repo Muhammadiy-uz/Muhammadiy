@@ -1,0 +1,204 @@
+/**
+ * Created by z_sultonkhujaev on 02.07.2019.
+ */
+
+function popupWindow(url, title, w, h) {
+    if (url.length == 0){
+        url = document.location.href;
+    }
+    var left = (screen.width/2)-(w/2);
+    var top = (screen.height/2)-(h/2);
+    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+}
+
+function fixMenu(offset) {
+    var header = document.getElementById("fixed_menu");
+
+    if (window.pageYOffset >= offset)
+        header.classList.add("headMenuFixed");
+    else
+        header.classList.remove("headMenuFixed");
+}
+const addUrlParam = (key, val, reload) => {
+    let allParams = document.location.search,
+        newParam = key + '=' + val,
+        params = '?' + newParam;
+    //console.log('allParams', allParams);
+    // If the "search" string exists, then build params from it
+    if (allParams) {
+        // Try to replace an existed instance
+        params = allParams.replace(new RegExp('([?&])' + key + '[^&]*'), '$1' + newParam);
+        let index = params.search(newParam);
+        // If nothing was replaced, then add the new param to the end
+        if (params === allParams && index === -1)
+            params += '&' + newParam;
+    }
+    let newUrl = document.location.pathname + params;
+    window.history.pushState({path: newUrl}, '', newUrl);
+    changeLangSwitcherParam(newParam, allParams, key);
+    if (reload) {
+        document.location.reload();
+    }
+};
+const changeLangSwitcherParam = (newParam, allParams, key) => {
+    let linksTags = $('#lang-switcher').find('a');
+    let old_tab_id = allParams.split(key + '=')[1];
+    linksTags.map((i, linksTag) => {
+        linksTag = $(linksTag);
+        let old_href = linksTag.attr('href');
+        let new_href;
+        if (old_href.search(key) === -1) {
+            if (old_href.indexOf("?") === -1) {
+                new_href = old_href + '?' + newParam;
+            } else {
+                new_href = old_href + '&' + newParam;
+            }
+        } else {
+            new_href = old_href.replace(key + '=' + old_tab_id, newParam);
+        }
+        linksTag.attr('href', new_href);
+    })
+};
+
+$(document).ready(function () {
+
+    $( ".pagination_box" ).before( "<div class='clearfix'></div>" );
+
+    var $grid = $('.grid').imagesLoaded( function() {
+        $grid.masonry({
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            columnWidth: '.grid-sizer'
+        });
+    });
+
+    var $owl = $('.owl-carousel'),
+        updateOwl = function(){
+            $owl.each(function() {
+                $(this).data('owl.carousel').onResize();
+            });
+        };
+    var offset = document.getElementById("fixed_menu").offsetTop;
+    fixMenu(offset);
+    window.onscroll = function (){
+        fixMenu(offset);
+    };
+
+
+    $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+    });
+    $('[data-fancybox="gallery"]').fancybox({
+        // Options will go here
+    });
+
+    $('#sidebarCollapse').click (function() {
+        $('#sidebar, #content').addClass('active');
+        $('.wrapper').addClass('content');
+        $('#search_sidebar, #content_for_search').removeClass('active');
+        $('#sidebar').removeClass('active');
+        $('#search_sidebar').addClass('active');
+        setTimeout(function(){
+            updateOwl();
+        }, 321)
+    });
+    $('#xclose').on('click', function () {
+        $('.wrapper').removeClass('content');
+        $('#sidebarCollapse, #content').removeClass('active');
+        $('#sidebar').addClass('active');
+        setTimeout(function(){
+            updateOwl();
+        }, 321)
+    });
+
+    $("#search_sidebar").mCustomScrollbar({
+        theme: "minimal"
+    });
+
+    $('#search_sidebar_collapse').click (function() {
+        $('#search_sidebar, #content_for_search').addClass('active');
+        $('.wrapper').addClass('content');
+        $('#sidebar, #content').removeClass('active');
+        $('#search_sidebar').removeClass('active');
+        $('#sidebar').addClass('active');
+        setTimeout(function(){
+            updateOwl();
+        }, 321)
+    });
+    $('#xclose_search').on('click', function () {
+        $('.wrapper').removeClass('content');
+        $('#search_sidebar, #content_for_search').removeClass('active');
+        $('#search_sidebar').addClass('active');
+        setTimeout(function(){
+            updateOwl();
+        }, 321)
+    });
+
+    $(window).on('resize', updateOwl);
+
+    $('[data-toggle="tooltip"]').tooltip()
+
+    $('a[href^="#"]').on("click", function(event) {
+        event.preventDefault();
+    });
+
+    $('.head_menu .dropdown').click(function () {
+        $(this).addClass('open');
+    }, function () {
+        $(this).removeClass('open');
+    });
+
+    $('body').append('<div class="scrollbtn scrolltop" style="display: block;"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></div>');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.scrollbtn').fadeIn();
+        } else {
+            $('.scrollbtn').fadeOut();
+        }
+    });
+    $('.scrollbtn').click(function(){
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+    $('.print span.glyphicon-print').click(function () {
+        $(".tab-content").print({
+            //Use Global styles
+            globalStyles : false,
+            //Add link with attrbute media=print
+            mediaPrint : false,
+            //Custom stylesheet
+            stylesheet : "http://fonts.googleapis.com/css?family=Inconsolata",
+            //Print in a hidden iframe
+            iframe : false,
+            //Don't print this
+            noPrintSelector : ".avoid-this ,.share_mini_list"
+            //Add this at top
+            //prepend : "Hello World!!!<br/>",
+            //Add this on bottom
+            //append : "<br/>Buh Bye!"
+        });
+        //var win = window.open("", "Title", "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1200, height=900, bottom="+(screen.height-0)+", right="+(screen.width-0));
+        //win.document.body.innerHTML = $('.rightPanel').html();
+        //win.print();
+    });
+    document.querySelector("html").classList.add('js');
+
+
+    // var fileInput  = document.querySelector( "#feedback-file" ),
+    //     button     = document.querySelector( ".input-file-trigger" );
+    // if (typeof(fileInput) != 'undefined'){
+    //     fileInput.addEventListener( "change", function( event ) {
+    //         let filePath = $(this).val();
+    //         $('#fileLabel').text(filePath.split('\\').pop());
+    //     });
+    // }
+
+
+});
+
+
+
+

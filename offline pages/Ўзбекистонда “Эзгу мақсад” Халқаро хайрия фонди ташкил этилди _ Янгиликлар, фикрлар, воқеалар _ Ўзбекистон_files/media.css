@@ -1,0 +1,269 @@
+/*
+font-family: "OpenSansLight";
+font-family: "OpenSansBold";
+font-family: "OpenSansItalic";
+font-family: "OpenSansLightItalic";
+font-family: "OpenSansRegular";
+font-family: "OpenSansSemiBold";
+*/
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+    min-width: 320px;
+    overflow-x: hidden; }
+  .mainContainer {
+    width: 100%; }
+  .row15,
+  .row30,
+  .row20 {
+    margin: 0; }
+  .colp30-12,
+  .colp30-11,
+  .colp30-10,
+  .colp30-9,
+  .colp30-8,
+  .colp30-7,
+  .colp30-6,
+  .colp30-5,
+  .colp30-4,
+  .colp30-3,
+  .colp30-2,
+  .colp30-1,
+  .colp15-12,
+  .colp15-11,
+  .colp15-10,
+  .colp15-9,
+  .colp15-8,
+  .colp15-7,
+  .colp15-6,
+  .colp15-5,
+  .colp15-4,
+  .colp15-3,
+  .colp15-2,
+  .colp15-1,
+  .colp20-12,
+  .colp20-11,
+  .colp20-10,
+  .colp20-9,
+  .colp20-8,
+  .colp20-7,
+  .colp20-6,
+  .colp20-5,
+  .colp20-4,
+  .colp20-3,
+  .colp20-2,
+  .colp20-1 {
+    display: block;
+    margin: 0 0 20px;
+    float: none;
+    width: 100%;
+    padding: 0; }
+  .btnNav {
+    display: block; }
+  .bannerBox {
+    margin: 0 0 15px; }
+  .logo {
+    margin: 0 !important;
+    padding: 14px 0 0; }
+  .headerNav {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    display: none;
+    height: 100%;
+    left: -300px;
+    width: 250px;
+    padding: 20px 20px 40px;
+    /*transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;*/
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); }
+    .headerNav .mainContainer {
+      padding: 0; }
+  /*.openMenu .headerNav {
+    left: 0; }*/
+  .openMenu #mainWrap {
+    overflow: hidden; }
+  .bannerBox {
+    width: 100%; }
+  .mainCol1,
+  .mainCol2 {
+    float: none;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%; }
+  .mainCol1 {
+    border: none; }
+  .headerRightBox {
+    padding: 0;
+    float: none;
+    display: block; }
+    .headerRightBox a {
+      color: #fff; }
+  .searchBox {
+    margin: 0 0 20px; }
+    .searchBox form {
+      width: 100% !important;
+      border-bottom: 1px solid #ccc; }
+      .searchBox form .searchField input {
+        color: #fff; }
+  .headerNav nav ul {
+    margin: 0 -20px;
+    border-top: 1px solid #9aa0a1; }
+    .headerNav nav ul li {
+      display: block;
+      margin: 0;
+      text-align: left;
+      border-bottom: 1px solid #9aa0a1; }
+      .headerNav nav ul li a {
+        display: block;
+        padding: 10px 20px; }
+  .searchBox form .searchBtn {
+    background: url(../images/icons/searchIco2.svg) no-repeat center; }
+  .items1 ul li {
+    width: 100%; }
+    .items1 ul li .itemImage a {
+      max-width: 280px; }
+  .items2 ul {
+    margin: 0; }
+    .items2 ul li {
+      width: 100%;
+      padding: 0; }
+      .items2 ul li .itemImage {
+        float: none;
+        margin: 0 0 10px; }
+  .photoBox a {
+    max-width: 280px;
+    margin: 0 auto; }
+  #footer .colp15-6.textRight {
+    text-align: left; }
+  .minFooter {
+    padding: 25px 0 0;
+    margin: 25px 0 0; }
+    .minFooter .left {
+      float: none;
+      margin: 0 0 20px; }
+    .minFooter .right {
+      float: none; }
+  .postContent {
+    font-size: 14px; }
+    .postContent blockquote {
+      padding: 0; }
+      .postContent blockquote:before {
+        margin: 0 15px 5px 0; }
+    .postContent h1 {
+      font-size: 24px; }
+    .postContent h2 {
+      font-size: 22px; }
+    .postContent h3 {
+      font-size: 20px; }
+    .postContent h4 {
+      font-size: 18px; }
+    .postContent h5 {
+      font-size: 16px; }
+    .postContent h6 {
+      font-size: 14px; }
+  .contentSlider .slick-prev, .contentSlider .slick-next {
+    width: 48px; }
+  .contentSlider ul li {
+    height: 200px;
+    margin: 0; }
+  .contentSlider ul li img {
+    max-height: 100%; }
+  .postFooter .right,
+  .postFooter .left {
+    float: none;
+    margin: 0 0 15px; }
+  .pfLink {
+    margin: 0 0 10px;
+    display: block; }
+  .dispatchNwLink {
+    width: 100%; }
+    .dispatchNwLink a {
+      padding: 0 16px; }
+      .dispatchNwLink a span {
+        margin: 0 0 0 12px; }
+  .shareBoxs .dispatchNW,
+  .shareBoxs .share {
+    float: none;
+    margin: 0 0 20px; }
+  .dispatchNW span {
+    margin: 0 0 10px; }
+  .commentBox {
+    padding: 0 0 0 60px; }
+    .commentBox .commentCont {
+      padding: 20px 0; }
+    .commentBox .userName {
+      font-size: 14px; }
+    .commentBox .userImg {
+      margin: 0 0 0 -60px;
+      width: 48px;
+      height: 48px; }
+    .commentBox .c-text {
+      font-size: 13px; }
+    .commentBox .commentBox {
+      padding: 0 0 0 40px;
+      border: none; }
+      .commentBox .commentBox .userImg {
+        width: 32px;
+        height: 32px;
+        margin: 0 0 0 -40px; }
+  .postUser {
+    min-width: 0px; }
+    .postUser .userName {
+      width: 70%; }
+  .onePost .itemTitle {
+    font-size: 22px; }
+  .questionsNav {
+    display: none; }
+  .shadowBox {
+    padding: 20px; }
+  .qTitle {
+    font-size: 18px; }
+  .sidebarBanner {
+    text-align: center; }
+  .topItem .itemImage {
+    float: none;
+    max-width: 280px;
+    margin: 0 0 18px; }
+  .topItem .user1 {
+    display: block;
+    margin: 0 0 20px; }
+  .fancybox-nav.fancybox-next {
+    right: -20px; }
+  .fancybox-nav.fancybox-prev {
+    left: -20px; }
+  .galleryItems ul {
+    text-align: center;
+    margin: 0 -10px; }
+    .galleryItems ul li {
+      margin: 0 10px 20px;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      *zoom: 1;
+      *display: inline;
+      float: none; }
+  .userBox1 .userImg {
+    float: none;
+    margin: 0 0 20px; }
+  #echart_donut {
+    width: 100%;
+    height: 250px;
+    margin: 0 0 20px; } 
+  .mainItems{
+    margin-top: 0px;
+  }
+  .sidebarBanner{
+    width: 100%;}}
+
+@media screen and (max-width: 1540px) {
+  .questionsContainer {
+    margin: 0 0 0 auto; } }

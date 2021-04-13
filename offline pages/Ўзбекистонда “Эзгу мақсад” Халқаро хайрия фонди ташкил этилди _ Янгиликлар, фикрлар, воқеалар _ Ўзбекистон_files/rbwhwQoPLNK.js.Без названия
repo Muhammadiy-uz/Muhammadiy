@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["qewJZ3e"]); }
+
+__d("sdk.FeatureFunctor",[],(function(a,b,c,d,e,f){f.create=a;function g(a,b,c){if(a.features&&b in a.features){a=a.features[b];if(typeof a==="object"&&typeof a.rate==="number")if(a.rate&&Math.random()*100<=a.rate)return a.value||!0;else return a.value?null:!1;else return a}return c}function a(a){return function(){for(var b=arguments.length,c=new Array(b),d=0;d<b;d++)c[d]=arguments[d];if(c.length<2)throw new Error("Default value is required");var e=c[0],f=c[1];return g(a,e,f)}}}),null);

@@ -1,0 +1,129 @@
+#calendar{
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 14px;
+    font-family: "RobotoCondensed-Regular";
+    text-align: center;
+    border: none !important;
+    color: #000;
+}
+#calendar thead tr:last-child{
+    font-size: small;
+    color: #4976b6;
+}
+#calendar thead tr td{
+    padding: 5px;
+}
+#calendar thead tr:nth-child(1) td:nth-child(2){
+    position: relative;
+    color: #000;
+    font-size: 16px !important;
+}
+#calendar thead tr:nth-child(1) td:nth-child(1):hover, #calendar thead tr:nth-child(1) td:nth-child(3):hover{
+    cursor: pointer;
+}
+#calendar td{
+    border: none;
+    padding: 5px;
+    font-size: 14px !important;
+}
+/*#calendar td .glyphicon{*/
+    /*top:-11px;*/
+/*}*/
+#calendar tbody td{
+    position: relative;
+    color: #040404;
+}
+#calendar tbody td:nth-child(n+6), #calendar .holiday{
+    /*color: #fba493;*/
+}
+#calendar tbody td.today{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+#calendar tbody td.today:before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    position: absolute;
+    background: #4976b6;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+#calendar tbody td.active{
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+#calendar tbody td.active:before{
+    content: '';
+    background-color: #4976b6;
+    border-radius: 50%;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.calendar_box .calView{
+    position: absolute;
+    display: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 12px;
+    background-color: rgba(73, 118, 182, 0.9);
+    padding: 35px 10px 30px 25px;
+    top: -8px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color:#646060;
+    font-size: 14px;
+    overflow: hidden;
+}
+.calendar_box .calView h2{
+    font-size:16px;
+    /*font-weight:normal;*/
+    /*line-height:20px;*/
+    margin: 10px 0 0 0;
+    color: #fff;
+}
+.calendar_box .calView li{
+    list-style: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0 30px 0 0;
+    padding: 10px 0 10px 0;
+}
+.calendar_box .calView li:last-child{
+    /*border: none;*/
+}
+.calendar_box .calView li a{
+    display: block;
+    color: #fff;
+    line-height: 1.2;
+}
+.calendar_box .calView .close{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    opacity: 2;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.calendar_box .calView .close:hover{
+    color: #456aa6;
+}

@@ -1,0 +1,49 @@
+
+@media print {
+    /* здесь будут стили для печати */
+    body {
+        font-size: 20px;
+    }
+     div.headerNav, div#footer,.postFooter,.shareBoxs,.titleBorder,.comments, .items1, .itemDatas {
+        display:none;
+    }
+    
+    div#header .header > div {
+        display:none;
+    }
+    
+    div#header .header  > div.logo {
+        display:block!important;
+       /* margin:0 auto!important;*/
+        margin:14px 0 20px;
+        float:none;
+    }
+    
+    .itemCat {
+        color:#000;
+        font-size:18px;
+    }
+    .mainCol2, .itemDatas, .itemDatas span {
+        display:none;
+    }
+    .postContent {
+        font-size: 24px;
+    }
+   .mainCol1 {
+        width:100%;
+        max-width:1000px;
+        border-right:0 none;
+    }
+    
+.mainContainer.shortContainer {
+    width:100%;
+    padding:0;
+}
+
+.mainContainer.shortContainer .mainCol1 {
+    width: 100%; 
+    padding:0;
+    border:0 none;
+}    
+    
+}

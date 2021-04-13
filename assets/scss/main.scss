@@ -1,3 +1,9 @@
+$border-radius-asa:           1.3rem;  
+
+.radius {
+    border-radius: $border-radius-asa; ;
+}
+
 .kkSum::after {
   content: " so'm";
 }

@@ -16,6 +16,6 @@ Huddi: https://www.caritate.md saytga uxshab
 * CSS beautifier: https://css.github.io/csso/csso.html
 
 ## Aloqa:
-Email: asakew@ya.ru
+Email: asakew@ya.ru / [Telegram profil](https://t.me/asakew)
 
 Telegram: [Kanal](https://t.me/Muhammadiy_izdoshlari) / [Guruh](https://t.me/joinchat/OvEkUfpY5V5hY2Fi)

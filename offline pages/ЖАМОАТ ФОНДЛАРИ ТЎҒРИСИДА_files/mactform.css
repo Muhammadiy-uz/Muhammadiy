@@ -1,0 +1,921 @@
+﻿html
+{
+    background-color:White;	
+}
+a:hover
+{
+    color:Green;    
+}
+#divToolbar
+{
+	position:absolute; 
+	width:99%; 
+	height:30px; 
+	background-color:buttonface;
+	padding-left:5px;
+	z-index:1000;
+}
+#divToolbar A, A:hover
+{
+    text-decoration:none;
+    padding-top:2px;
+}
+#divToolbar DIV:hover
+{
+    border:1px solid black;
+}
+#divToolbar SPAN
+{
+    border:0px solid red;
+    vertical-align:top;
+}
+#divToolbar DIV.dButton
+{
+    border:0px solid red;
+    padding-right:5px;	
+    margin-top:4px;
+    padding-top:2px;
+    padding-left:2px;
+    float:left;
+    height:20px;
+    margin-left:3px;
+}
+DIV.dButton A
+{
+    width:100%;
+}
+DIV.menu_item DIV.delem
+{
+	clear:both;height:2px;
+}
+DIV.menu_item A
+{
+	margin:0px 0px 0px 5px;
+	background-color:ButtonFace;
+	color:Black;
+	padding-bottom:2px;
+}
+.active_menu_item
+{
+	background-color:Blue;
+	color:White;
+}
+DIV.menu_item A:hover
+{
+	background-color:Blue;
+	color:White;
+}
+DIV.menu_item
+{
+    position:absolute;
+    display:none;
+    background-color:ButtonFace;
+    border:1px solid black;
+    min-width:200px;
+    margin-top:2px;	
+    padding:5px;
+} 
+
+span.sarr IMG
+{
+	margin-top:8px;
+}
+  
+DIV#divCont
+{
+	border:1px solid #E3E3EB;
+	/*max-height:778px;*/
+}
+div#divAct
+{
+    border:0px solid red;
+    /*overflow-x:hidden;
+    overflow-y:auto;*/
+    /*margin-top:30px;
+    position:absolute;*/
+    /*width:73%;*/
+}
+#divContext
+{
+    width:inherit;	
+    border:0px solid red;
+}
+
+
+BODY{ 
+	scrollbar-base-color:scrollbar;
+	scrollbar-highlight-color:white;
+	scrollbar-darkshadow-color:scrollbar;
+	scrollbar-shadow-color:white;
+} 
+
+#divCont DIV{ 
+	border:none;
+	white-space:normal;
+} 
+
+#divCont IMG{ 
+	float:none;
+	vertical-align:middle;
+} 
+
+#divCont A{ 
+	text-decoration:none;
+} 
+
+#divCont A:link{ 
+	color:#008080;
+} 
+
+#divCont A:visited{ 
+	color:#008080;
+} 
+
+#divCont P{ 
+	margin:0px;
+	padding:0px;
+	line-height:1.0;
+} 
+
+#divCont LABEL{ 
+	display:none;
+} 
+
+.aExp{ 
+	text-align:left;
+	text-indent:0px;
+	margin:0pt 0pt 12pt 0pt;
+	font-style:normal;
+	color:red;
+	font-weight:600;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.0;
+} 
+
+.aOAD{ 
+	width:100%;
+	text-align:right;
+	text-indent:0px;
+	margin:0pt 0pt 12pt 0pt;
+	font-style:italic;
+	color:#808080;
+	font-weight:400;
+	font-size:10pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.0;
+} 
+
+.signCont{ 
+	text-align:center;
+	margin:0pt 0pt 12pt 0px;
+	text-indent:0pt;
+} 
+
+.mrkup{ 
+	background-color:#40A0D7 !important;
+	color:#FFFFFF !important;
+} 
+
+.mrkupNavL{ 
+	color:#00008B !important;
+	background-image:url('/image/toolbar/variant_left.gif');
+	background-position:center center;
+	background-repeat:no-repeat;	
+	padding-right:10px;
+} 
+.mrkupNavR{ 
+	color:#00008B !important;
+	background-image:url('/image/toolbar/variant_right.gif');	
+	background-position:center center;
+	background-repeat:no-repeat;
+	padding-left:10px;
+} 
+
+.mrkupNav{ 
+	color:#00008B !important;
+} 
+
+.mrkupNav SPAN{ 
+	font:12px Webdings!important;
+	padding:0px 2px!important;
+} 
+
+.iorRN{ 
+	font-weight:600;
+} 
+
+.iorVal{ 
+	text-indent:0px;
+	margin-left:1px;
+} 
+
+.clausePrfx{ 
+	display:inline;
+	float:left;
+} 
+
+.clauseSuff{ 
+	display:block;
+	width:100%;
+	text-indent:0px;
+} 
+
+/*@media print{ */
+.clausePrfx{ 
+	float:none;
+} 
+
+.clauseSuff{ 
+	display:inline;
+	width:auto;
+} 
+
+.ACCEPTING_BODY{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 0 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+	text-transform:uppercase;
+} 
+
+.ACT_ESSENTIAL_ELEMENTS{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 70% 0 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.ACT_ESSENTIAL_ELEMENTS_NUM{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 70% 0 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+	padding-bottom: 20px;
+} 
+
+.ACT_FORM{ 
+	text-align:center;
+	text-indent:0;
+	margin:0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	text-transform:uppercase;
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.ACT_FORM_LAW{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 12pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	text-transform:uppercase;
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.ACT_TEXT{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:0;
+	font-style:normal;
+	color:#000000;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.3;
+} 
+
+.ACT_TITLE{ 
+	text-align:center;
+	text-indent:0;
+	margin:12pt 0 6pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	text-transform:uppercase;
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.ACT_TITLE_APPL{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 6pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.APPL_BANNER_LANDSCAPE_TEXT{ 
+	text-align:center;
+	text-indent:0pt;
+	margin:0pt 0pt 10pt 66%;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.APPL_BANNER_LANDSCAPE_TITLE{ 
+	text-align:center;
+	text-indent:0pt;
+	margin:10pt 0pt 12pt 66%;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.APPL_BANNER_PORTRAIT_TEXT{ 
+	text-align:center;
+	text-indent:0pt;
+	margin:0pt 0pt 0pt 50%;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.APPL_BANNER_PORTRAIT_TITLE{ 
+	text-align:center;
+	text-indent:0pt;
+	margin:0pt 0pt 12pt 50%;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.BY_DEFAULT{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:0;
+	margin:0;
+	font-style:normal;
+	color:#000000;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.3;
+} 
+
+.CHANGES_ORIGINS{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:0;
+	font-style:italic;
+	color:#800000;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.3;
+} 
+
+.CLAUSE_AFTER_SRC{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:0;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:boldl;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.CLAUSE_DEFAULT{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:6pt 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.COMMENT{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:3pt 0 3pt 0;
+	font-style:italic;
+	color:#800080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.COMMENT_FOR_WARNING{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:3pt 0 3pt 0;
+	font-style:italic;
+	color:#800080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.DEPARTMENTAL{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 6pt 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.EXPLANATION{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:3pt 0 3pt 0;
+	font-style:normal;
+	color:#993366;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	line-height:normal;
+} 
+
+.EXTRACT{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 6pt 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.FOOTNOTE{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:0;
+	font-style:normal;
+	color:#339966;
+	font-weight:normal;
+	font-size:10pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.GRIF_PARLAMENT{ 
+	text-align: left;
+	text-indent:0 mm;
+	margin:0 0 3pt 50%;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.INDEXES_ON_REF{ 
+	text-align:left;
+	text-indent:0cm;
+	margin:3pt 0.9cm 3pt 0.95cm;
+	font-style:normal;
+	color:#008000;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.0;
+} 
+
+.IS_TABLE_FOR_LIST_TEMP{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:15mm;
+	margin:0;
+	font-style:normal;
+	color:#000000;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:1.3;
+} 
+
+.NEW_EDITION{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 6pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	text-transform:lowercase;
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.OFFICIAL_SOUR_TEXT{ 
+	text-align:right;
+	font-size:8pt;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 1px solid #A9DBFC;
+	background-color: #E6EDFF;
+} 
+
+.PUBLICATION_ORIGIN{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 12pt 0;
+	font-style:italic;
+	color:#800000;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.SIGNATURE{ 
+	text-align:right;
+	text-indent:0;
+	margin:6pt 0 6pt 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.SIGNATURE_STAMPS_PLACEHOLDER{ 
+	text-align:justify;
+	text-justify:inter-word;
+	text-indent:0;
+	margin:4 10;
+	vertical-align:text-top;
+	flow:left;
+} 
+
+.SIGNATURE_STAMP_TEXT{ 
+	text-align:center;
+	text-indent:0;
+	margin:0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:11pt;
+	font-family:"Arial";
+	font-variant:normal;
+	vertical-align:baseline!important;
+} 
+
+.SIGNATURE_WITH_BOLD{ 
+	text-align:right;
+	text-indent:0;
+	margin:6pt 0 6pt 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TABLE_STD{ 
+	background:#ffffff;
+	color:#000000;
+	margin:4pt;
+	font-size:12pt;
+	width:100%;
+	height:100%;
+	overflow:visible;
+} 
+
+.TEXT_15_LEFT{ 
+	text-align: left;
+	text-indent:30 mm;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_30_LEFT{ 
+	text-align: left;
+	text-indent:45 mm;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_BOLD{ 
+	text-align:justify;
+	 text-indent:0;
+	margin:6pt 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+	text-indent:15mm;
+} 
+
+.TEXT_BOLD_CENTER{ 
+	text-align:center;
+	text-indent:0;
+	margin:6pt 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_BOLD_RIGHT{ 
+	text-align:right;
+	text-indent:0;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000000;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_CENTER{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_HEADER_AFTER_SRC{ 
+	text-align:center;
+	text-indent:0;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_HEADER_DEFAULT{ 
+	text-align:center;
+	text-indent:0;
+	margin:6pt 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:bold;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+.TEXT_ITALIC{ 
+	text-align:justify;
+	text-indent:0;
+	margin:0;
+	font-style:italic;
+	color:#000080;
+	font-weight:italic;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+	text-indent:15mm} 
+
+.TEXT_RIGHT{ 
+	text-align: right;
+	text-indent:0;
+	margin:0 0 3pt 0;
+	font-style:normal;
+	color:#000080;
+	font-weight:normal;
+	font-size:12pt;
+	font-family:"Arial";
+	font-variant:normal;
+	line-height:normal;
+} 
+
+DIV#theSysCssID TABLE{ 
+	background-color:ivory;
+	color:#000000;
+	border-collapse:separate;
+	font:x-small Tahoma;
+	table-layout:auto;
+	position:relative;
+	margin:0pt;
+	top:0pt;
+	zoom:normal;
+	z-index:auto;
+} 
+
+DIV#theSysCssID TABLE TD,TH{ 
+	border:1px solid #000000;
+	cursor:auto;
+	min-height:8pt;
+	padding:1px 1px 1px 2px;
+	vertical-align:top;
+	white-space:normal;
+	word-wrap:break-word;
+	/*display:block!important;
+	*/visibility:visible!important;
+} 
+
+DIV#theNormCssID TABLE{ 
+	background-color:#f5f5f5;
+	color:red;
+	border:1px solid red;
+	font:small Verdana;
+	position:relative;
+	margin:0pt;
+	top:0pt;
+	zoom:normal;
+	z-index:auto;
+} 
+
+DIV#theNormCssID TABLE TD,TH{ 
+	border:1px solid red;
+	cursor:auto;
+	min-height:8pt;
+	padding:2px 2px 2px 3px;
+	vertical-align:top;
+	white-space:normal;
+	word-wrap:normal;
+	/*display:block!important;*/
+	visibility:visible!important;
+} 
+
+DIV#theDefCssID TABLE{ 
+	background-color:#ffffff;
+	color:#000000;
+	border:1px solid #000000;
+	border-collapse:collapse;
+	font:normal normal normal small/normal Arial;
+	table-layout:fixed;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	word-spacing:normal;
+	position:relative;
+	margin:0pt;
+	top:0pt;
+	zoom:normal;
+	z-index:auto;
+} 
+
+DIV#theDefCssID TABLE TD,TH{ 
+	background-color:#ffffff;
+	color:#000000;
+	border:1px solid #000000;
+	cursor:auto!important;
+	font:normal normal normal small/normal Arial;
+	height:22px;
+	padding:1px 1px 1px 2px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	vertical-align:top;
+	white-space:normal;
+	word-wrap:break-word;
+	word-spacing:normal;
+	/*display:block!important;*/
+	visibility:visible!important;
+} 
+
+DIV#theNotCssID TABLE{ 
+	position:relative;
+	margin:0pt;
+	top:0pt;
+	zoom:normal;
+	z-index:auto;
+} 
+
+DIV#theNotCssID TABLE TD,TH,CAPTION{ 
+	/*display:block!important;*/
+	visibility:visible!important;
+} 
+
+A#tabBoxDisable TABLE TD,TH{ 
+	color:#808080;
+	border-color:#808080;
+} 
+
+.tabBox{ 
+	display:inline-block;
+} 								
+
+
+
+
+#divCont A:hover{ 
+	color:BLACK;
+} 
+#divCont A:LINK:hover{ 
+	color:RED;
+} 
+#divCont DIV:hover
+{
+    background-color:#E8E8FF;    
+}

@@ -12,7 +12,7 @@ Huddi: https://caritate.md saytga uxshab
 * Lorem images: https://picsum.photos
 
 * Lazy images - v5.1.2: https://web.dev/browser-level-image-lazy-loading
-* HTML beautifier: http://minifycode.com/html-beautifier
+* HTML beautifier: https://minifycode.com/html-beautifier
 * CSS beautifier: https://css.github.io/csso/csso.html
 
 **Free Illustrations:**

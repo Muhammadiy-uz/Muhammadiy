@@ -15,6 +15,13 @@ Huddi: https://caritate.md saytga uxshab
 * HTML beautifier: http://minifycode.com/html-beautifier
 * CSS beautifier: https://css.github.io/csso/csso.html
 
+**Free Illustrations:**
+* https://undraw.co
+* https://www.freepik.com
+
+**Gradient Colors:**
+* https://webgradients.com/
+
 ## Aloqa:
 Email: asakew@ya.ru / [Telegram profil](https://t.me/asakew)
 

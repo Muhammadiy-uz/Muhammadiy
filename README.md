@@ -30,3 +30,6 @@ Huddi: Moldovadagi xayriya va xayriya - mablag' yig'ish fondi: https://caritate.
 Email: asakew@ya.ru / [Telegram profil](https://t.me/asakew)
 
 Telegram: [Kanal](https://t.me/Muhammadiy_izdoshlari) / [Guruh](https://t.me/joinchat/0PnNb_Jpr4U3MGUy)
+
+## WekaTime stats
+https://wakatime.com/@asakew/projects/pvdnjqhqwm

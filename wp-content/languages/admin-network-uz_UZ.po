@@ -1,0 +1,1394 @@
+# Translation of WordPress - 5.8.x - Development - Administration - Network Admin in Uzbek
+# This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-31 10:30:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uz\n"
+"Project-Id-Version: WordPress - 5.8.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:293
+msgctxt "site"
+msgid "Not spam"
+msgstr "Spam emas"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:410
+msgid "%s theme will no longer be auto-updated."
+msgid_plural "%s themes will no longer be auto-updated."
+msgstr[0] "%s shablon avtomatik yangilanmaydi."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:401
+msgid "%s theme will be auto-updated."
+msgid_plural "%s themes will be auto-updated."
+msgstr[0] "%s shablon avtomatik yangilanadi."
+
+#: wp-admin/network/themes.php:225
+msgid "Sorry, you are not allowed to change themes automatic update settings."
+msgstr "Kechirasiz, siz shablonlarning avtomatik yangilanish sozlanmasini o'zgartira olmaysiz."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:321
+msgid "No themes are currently available."
+msgstr "Hozircha shablonlar mavjud emas."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:477
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:498
+#: wp-admin/includes/class-wp-ms-users-list-table.php:336
+msgid "Y/m/d g:i:s a"
+msgstr "d.m.Y H:i:s"
+
+#: wp-admin/includes/network.php:629
+msgid "https://wordpress.org/support/article/nginx/"
+msgstr "https://wordpress.org/support/article/nginx/"
+
+#. translators: %s: Documentation URL.
+#: wp-admin/includes/network.php:628
+msgid "It seems your network is running with Nginx web server. <a href=\"%s\">Learn more about further configuration</a>."
+msgstr "Tarmog'ingiz Nginx web serveridan foydalanar ekan. <a href=\"%s\">Sozlanmalar haqida batafsil bilib oling</a>."
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:254
+msgid "Deleted <span class=\"count\">(%s)</span>"
+msgid_plural "Deleted <span class=\"count\">(%s)</span>"
+msgstr[0] "O'chirilgan <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:247
+msgctxt "sites"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "Spam <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:241
+msgid "Mature <span class=\"count\">(%s)</span>"
+msgid_plural "Mature <span class=\"count\">(%s)</span>"
+msgstr[0] "Eski <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:235
+msgid "Archived <span class=\"count\">(%s)</span>"
+msgid_plural "Archived <span class=\"count\">(%s)</span>"
+msgstr[0] "Arxivda <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:229
+msgid "Public <span class=\"count\">(%s)</span>"
+msgid_plural "Public <span class=\"count\">(%s)</span>"
+msgstr[0] "Ommaviy <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:222
+msgctxt "sites"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Barchasi <span class=\"count\">(%s)</span>"
+
+#: wp-admin/network/upgrade.php:31
+msgid "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Tarmoq yangilanishi bo'yicha yo'riqnoma</a>"
+
+#: wp-admin/network/index.php:55
+msgid "<a href=\"https://wordpress.org/support/article/network-admin/\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin/\">Tarmoq boshqaruvi bo'yicha yo'riqnoma</a>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:406
+msgctxt "themes"
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Yangilik bor <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:616
+msgid "Main"
+msgstr "Asosiy"
+
+#: wp-admin/network.php:67 wp-admin/network.php:80
+msgid "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Tarmoq interfeysi bo'yicha yo'riqnoma</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:79
+msgid "<a href=\"https://wordpress.org/support/article/create-a-network/\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/create-a-network/\">Tarmoq yaratish bo'yicha yo'riqnoma</a>"
+
+#. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
+#: wp-admin/includes/network.php:118
+msgid "The constant %s cannot be defined when creating a network."
+msgstr "Tarmoq yaratilayotganda %s doimiysini ta'riflash mumkin emas."
+
+#: wp-admin/network/sites.php:195
+msgid "You are about to delete the following sites:"
+msgstr "Siz quyidagi saytlarni o'chirmoqchisiz:"
+
+#: wp-admin/network/site-users.php:243
+msgid "User could not be added to this site."
+msgstr "Bu saytga foydalanuvchi qo'shib bo'lmadi."
+
+#: wp-admin/network/site-new.php:263
+msgid "The username and a link to set the password will be mailed to this email address."
+msgstr "Ushbu email manzilga login va parol o'rnatish uchun link yuboriladi."
+
+#. translators: %s: New network admin email.
+#: wp-admin/network/settings.php:175
+msgid "There is a pending change of the network admin email to %s."
+msgstr "Tarmoq admini emaili %s tarzda o'zgartirilishi kutilmoqda."
+
+#: wp-admin/includes/network.php:332
+msgid "Sub-domain Installation"
+msgstr "Subdomen o'rnatilishi"
+
+#: wp-admin/includes/network.php:301 wp-admin/includes/network.php:319
+msgid "Sub-directory Installation"
+msgstr "Subdirektoriya o'rnatilishi"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:917
+msgid "Active Child Theme"
+msgstr "Faol bola shablon"
+
+#: wp-admin/network/site-info.php:193
+msgid "Attributes"
+msgstr "Jihatlar"
+
+#. translators: %s: File size in kilobytes.
+#: wp-admin/network/settings.php:424
+msgid "%s KB"
+msgstr "%s KB"
+
+#. translators: %s: Default network title.
+#: wp-admin/includes/network.php:172
+msgid "%s Sites"
+msgstr "%s tarmog'i"
+
+#: wp-admin/network/themes.php:101
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "Kechirasiz, sizga bu saytdagi shablonlarni o'chirishga ruxsat berilmagan."
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "Kechirasiz, sizga tarmoq shablonlarini boshqarishga ruxsat berilmagan."
+
+#: wp-admin/network/sites.php:320
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "Kechirasiz, sizga bu saytni o'chirishga ruxsat berilmagan."
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "Kechirasiz, sizga bu saytdagi shablonlarni boshqarishga ruxsat berilmagan."
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Kechirasiz, sizga bu tarmoqqa saytlar qo'shishga ruxsat berilmagan."
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "Kechirasiz, sizga bu saytni o'zgartirishga ruxsat berilmagan."
+
+#: wp-admin/network/settings.php:374
+msgid "The email address of the first comment author on a new site."
+msgstr "Yangi saytda ilk fikr bildirgan muallifning email manzili."
+
+#: wp-admin/network/settings.php:370
+msgid "First Comment Email"
+msgstr "Ilk fikr email manzili"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:485
+msgid "That&#8217;s all, stop editing! Happy publishing."
+msgstr "Bo&#8217;ldi, tahrirlashni to&#8217;xtating! Maqola yozishni boshlashingiz mumkin."
+
+#. translators: 1: wp-config.php, 2: Location of wp-config file, 3: Translated
+#. version of "That's all, stop editing! Happy publishing."
+#: wp-admin/includes/network.php:477
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "Quyidagini %2$s manzilida joylashgan %1$s fayliga, %3$s deyilgan yozuvning <strong>tepasiga</strong> qo'ying:"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: wp-admin/network/themes.php:149
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s, muallif: %2$s"
+
+#: wp-admin/network/site-new.php:219
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "Faqat kichik harflar (a-z), raqamlar va chiziqchalar yozishga ruxsat berilgan."
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:540
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Sizning %s faylingizdan bu betakror tasdiqlash kalitlari ham topilmadi."
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:534
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "Sizning %s faylingizdan bu betakror tasdiqlash kaliti ham topilmadi."
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:463
+msgid "We recommend you back up your existing %s file."
+msgstr "Mavjud %s faylingizdan zahira nusxa olishingizni tavsiya etamiz."
+
+#. translators: 1: wp-config.php, 2: .htaccess
+#. translators: 1: wp-config.php, 2: web.config
+#: wp-admin/includes/network.php:447 wp-admin/includes/network.php:455
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "Mavjud %1$s va %2$s fayllaringizdan zahira nusxa olishingizni tavsiya etamiz."
+
+#. translators: 1: localhost, 2: localhost.localdomain
+#: wp-admin/includes/network.php:306
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "%1$sdan foydalanayotganligingiz uchun WordPress tarmog'ingizdagi saytlar sub-direktoriyali bo'lishi shart. Agar sub-domenli saytlar ishlatishni xohlasangiz %2$sdan foydalanishingiz kerak bo'ladi."
+
+#. translators: %s: Host name.
+#: wp-admin/includes/network.php:288 wp-admin/includes/network.php:348
+msgid "The internet address of your network will be %s."
+msgstr "Tarmog'ingizning internetdagi manzili %s bo'ladi."
+
+#. translators: 1: Site URL, 2: Host name, 3: www.
+#: wp-admin/includes/network.php:274
+msgid "We recommend you change your site domain to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "Tarmoq imkoniyatini yoqishdan avval sayt manzilini %1$s qilib o'zgartirishingizni tavsiya etamiz. Saytingizga %2$s manziliga o'xshash %3$s prefiksli manzil bilan kirish mumkin bo'ladi, ammo linklar %3$s prefiksga ega bo'lmaydi."
+
+#: wp-admin/includes/network.php:229
+msgid "You cannot change this later."
+msgstr "Buni keyinchalik o'zgartira olmaysiz."
+
+#: wp-admin/includes/network.php:228
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "WordPress tarmog'ingizdagi saytlar sub-domenli yoki sub-direktoriyali bo'lishi haqida qaror qiling."
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite.
+#: wp-admin/includes/network.php:216
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "Agar %1$s o'chirilgan bo'lsa, administratoringizdan bu modulni yoqishni iltimos qiling. Aks holda <a href=\"%2$s\">Apache yo'riqnomasi</a> yoki <a href=\"%3$s\">boshqa joyda</a> yordam izlashga urinib ko'ring."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:206
+msgid "It looks like the Apache %s module is not installed."
+msgstr "Apachening %s moduli o'rnatilmaganga o'xshaydi."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:198
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "Apachening %s moduli o'rnatilganligiga ishonch hosil qiling. O'rnatishning oxirida u bizga kerak bo'ladi."
+
+#. translators: %s: Port number.
+#: wp-admin/includes/network.php:145
+msgid "You cannot use port numbers such as %s."
+msgstr "Siz %s kabi port raqamlaridan foydalana olmaysiz."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:200
+msgctxt "user"
+msgid "Registered"
+msgstr "Ro'yxatdan o'tgan"
+
+#. translators: Number of users.
+#: wp-admin/includes/class-wp-ms-users-list-table.php:164
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Super Admin <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:118
+msgctxt "user"
+msgid "Not spam"
+msgstr "Spam emas"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:117
+msgctxt "user"
+msgid "Mark as spam"
+msgstr "Spam sifatida belgilash"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:727
+msgid "Visit Theme Site"
+msgstr "Shablon saytiga tashrif buyurish"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:721
+msgid "Visit %s homepage"
+msgstr "%s bosh sahifasiga o'tish"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:690
+msgid "Broken Theme:"
+msgstr "Buzilgan shablon:"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:596
+msgid "Network Disable %s"
+msgstr "%s tarmoqda o'chirish"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:593
+msgid "Disable %s"
+msgstr "%s o'chirish"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:570
+msgid "Network Enable %s"
+msgstr "%s tarmoqda yoqish"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:567
+msgid "Enable %s"
+msgstr "%s yoqish"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:472
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:603
+msgid "Network Disable"
+msgstr "Tarmoqda o'chirish"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:472
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:603
+msgid "Disable"
+msgstr "O'chirish"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:469
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:577
+msgid "Enable"
+msgstr "Yoqish"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:415
+msgctxt "themes"
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "Buzuq <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:397
+msgctxt "themes"
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "O'chirilgan <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:388
+msgctxt "themes"
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Yoqilgan <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:379
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Barchasi <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:319
+msgid "No themes found."
+msgstr "Shablonlar topilmadi."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:706
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Arxiv"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:704
+msgid "Unarchive"
+msgstr "Arxivdan chiqarish"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:480
+msgid "Never"
+msgstr "Hech qachon"
+
+#. translators: 1: Site title, 2: Site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:453
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:365
+#: wp-admin/network/site-info.php:176
+msgctxt "site"
+msgid "Registered"
+msgstr "Ro'yxatdan o'tgan"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:364
+#: wp-admin/network/site-info.php:180
+msgid "Last Updated"
+msgstr "So'nggi yangilangan"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:710
+msgctxt "site"
+msgid "Not Spam"
+msgstr "Spam emas"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:292
+msgctxt "site"
+msgid "Mark as spam"
+msgstr "Spam sifatida belgilash"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:207
+msgid "No sites found."
+msgstr "Saytlar topilmadi."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/network/site-info.php:190
+msgid "Mature"
+msgstr "Mustahkam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:188
+msgid "Deleted"
+msgstr "O'chirilgan"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:40
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:712
+#: wp-admin/network/site-info.php:187
+msgctxt "site"
+msgid "Spam"
+msgstr "Spam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:39
+#: wp-admin/network/site-info.php:186
+msgid "Archived"
+msgstr "Arxivlangan"
+
+#: wp-admin/network/site-users.php:355 wp-admin/network/user-new.php:136
+msgid "A password reset link will be sent to the user via email."
+msgstr "Parolni tiklash linki foydalanuvchiga email orqali yuboriladi."
+
+#. translators: 1: NOBLOGREDIRECT, 2: wp-config.php
+#: wp-admin/network/settings.php:212
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Agar ro'yxatdan o'tish o'chirilgan bo'lsa, iltimos %2$s faylidagi %1$s bandida mavjud bo'lmagan sayt manziliga kirishga urinishgan vaqtda yo'naltirilishi kerak bo'lgan manzilni ko'rsating."
+
+#. translators: 1: WP_ALLOW_MULTISITE, 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Tarmoq yaratish imkoniyatini yoqish uchun %2$s faylida %1$s bandni <strong>true</strong> qilib o'zgartiring."
+
+#: wp-admin/network/themes.php:331
+msgid "Themes list navigation"
+msgstr "Shablonlar ro'yxati navigatsiyasi"
+
+#: wp-admin/network/sites.php:52
+msgid "Sites list"
+msgstr "Saytlar ro'yxati"
+
+#: wp-admin/network/sites.php:51
+msgid "Sites list navigation"
+msgstr "Saytlar ro'yxati navigatsiyasi"
+
+#: wp-admin/network/site-users.php:27
+msgid "Site users list"
+msgstr "Sayt foydalanuvchilari ro'yxati"
+
+#: wp-admin/network/site-users.php:26
+msgid "Site users list navigation"
+msgstr "Sayt foydalanuvchilari ro'yxati navigatsiyasi"
+
+#: wp-admin/network/site-users.php:25
+msgid "Filter site users list"
+msgstr "Sayt foydalanuvchilari ro'yxatini saralash"
+
+#: wp-admin/network/site-themes.php:24
+msgid "Site themes list"
+msgstr "Sayt shablonlari ro'yxati"
+
+#: wp-admin/network/site-themes.php:23
+msgid "Site themes list navigation"
+msgstr "Sayt shablonlari ro'yxati navigatsiyasi"
+
+#: wp-admin/network/site-themes.php:22
+msgid "Filter site themes list"
+msgstr "Sayt shablonlari ro'yxatini saralash"
+
+#: wp-admin/network/site-new.php:121
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Domen yoki yo'nalish nomi mavjud foydalanuvchi nomi bilan bir xil bo'lib qolibdi."
+
+#: wp-admin/network/sites.php:89
+msgid "The requested action is not valid."
+msgstr "Yaroqsiz so'rov."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:81
+msgid "You are about to mark the site %s as not mature."
+msgstr "Siz %s saytini mustahkam emas deb belgilamoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:79
+msgid "You are about to mark the site %s as mature."
+msgstr "Siz %s saytini mustahkam deb belgilamoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:77
+msgid "You are about to delete the site %s."
+msgstr "Siz %s saytini o'chirmoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:75
+msgid "You are about to mark the site %s as spam."
+msgstr "Siz %s saytini spam sifatida belgilamoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:73
+msgid "You are about to unspam the site %s."
+msgstr "Spam sifatida belgilangan %s saytini spam emas deb belgilamoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:71
+msgid "You are about to archive the site %s."
+msgstr "Siz %s saytini arxivlamoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:69
+msgid "You are about to unarchive the site %s."
+msgstr "Siz %s saytini arxivdan chiqarmoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:67
+msgid "You are about to deactivate the site %s."
+msgstr "Siz %s sayti faoliyatini to'xtatmoqchisiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:65
+msgid "You are about to activate the site %s."
+msgstr "Siz %s saytini faollashtirmoqchisiz."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-users.php:46
+msgid "The requested site does not exist."
+msgstr "So'ralgan sayt mavjud emas."
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:230
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Tarmoq foydalanuvchilari yo'riqnomasi</a>"
+
+#: wp-admin/network/themes.php:323
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Tarmoq shablonlari yo'riqnomasi</a>"
+
+#. translators: 1: Site URL, 2: Server error message.
+#: wp-admin/network/upgrade.php:98
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "Ogohlantirish! %1$sni yangilashda muammo yuz berdi. Balki serveringiz saytlar bilan aloqa o'rnata olmayotgandir. Xatolik xabari: %2$s"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:392
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s shablon o'chirildi."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/site-themes.php:204 wp-admin/network/themes.php:383
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s shablon faoliyati to'xtatildi."
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/site-themes.php:195 wp-admin/network/themes.php:374
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s shablon faollashtirildi."
+
+#: wp-admin/network/themes.php:175
+msgid "Yes, delete these themes"
+msgstr "Ha, bu shablonlarni o'chir."
+
+#: wp-admin/network/themes.php:142
+msgid "You are about to remove the following themes:"
+msgstr "Quyidagi shablonlarni o'chirmoqchisiz:"
+
+#: wp-admin/network/themes.php:141
+msgid "These themes may be active on other sites in the network."
+msgstr "Ushbu shablonlar tarmoqdagi boshqa saytlarda faol bo'lishi mumkin."
+
+#: wp-admin/network/themes.php:140
+msgid "Delete Themes"
+msgstr "Shablonlarni o'chirish"
+
+#: wp-admin/network/site-info.php:196
+msgid "Set site attributes"
+msgstr "Sayt jihatlarini o'rnating"
+
+#: wp-admin/network/settings.php:496
+msgid "Enable menus"
+msgstr "Menyularni faollashtirish"
+
+#: wp-admin/network/settings.php:429
+msgid "Size in kilobytes"
+msgstr "Hajm kilobaytlarda"
+
+#: wp-admin/network/settings.php:413
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Ruxsat berilgan fayl turlari. Probel bilan ajrating."
+
+#: wp-admin/network/settings.php:202
+msgid "New registrations settings"
+msgstr "Yangi a'zoliklar sozlanmasi"
+
+#. translators: 1: File name (.htaccess or web.config), 2: File path.
+#: wp-admin/includes/network.php:609 wp-admin/includes/network.php:662
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "%2$s joyda mavjud bo'lgan %1$s faylingizga quyidagi qoidalarni mavjud yozuvlarning <strong>ustidan</strong> yozib saqlang:"
+
+#: wp-admin/network/sites.php:114 wp-admin/network/sites.php:190
+msgid "Confirm your action"
+msgstr "Harakatingizni tasdiqlang"
+
+#: wp-admin/network/users.php:220
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Tahrirlash linkini ko'rish uchun roy'xatdagi foydalanuvchilar ustiga sichqonchangiz ko'rsatkichini olib boring. Chap tomondagi tahrirlash linki foydalanuvchi profilini o'zgartirish sahifasiga olib boradi. Har qanday sayt nomi yonidagi o'ng tomonda joylashgan tahrirlash linki esa shu saytni tahrirlovchi sahifaga olib boradi."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Saytni izlash uchun <strong>domen yoki yo'nalishni</strong> yozing."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Foydalanuvchini izlash uchun <strong>email manzil yoki foydalanuvchi ismini kiriting</strong>. Foydalanuvchi ismining bir qismini qidirish uchun <strong>*</strong> belgisidan foydalaning. Masalan: Abdu&#42;."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Yangi sayt qo'shish uchun <strong>Yangi sayt yaratish</strong>ni bosing."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Yangi foydalanuvchi qo'shish uchun <strong>Yangi foydalanuvchi yaratish</strong>ni bosing."
+
+#: wp-admin/network/index.php:48
+msgid "Quick Tasks"
+msgstr "Tezkor topshiriqlar"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Foydalanuvchi yoki saytni qidirib topish uchun qidiruvdan foydalaning."
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Bu sahifadagi Ayni vaqtda vidjeti tarmog'ingizdagi joriy saytlar va foydalanuvchilar sonini ko'rsatib turadi."
+
+#: wp-admin/network/index.php:28
+msgid "Modify global network settings"
+msgstr "Global tarmoq sozlanmalarini tahrirlash"
+
+#: wp-admin/network/index.php:27
+msgid "Update your network"
+msgstr "Tarmoqni yangilash"
+
+#: wp-admin/network/index.php:26
+msgid "Install and activate themes or plugins"
+msgstr "Shablon yoki plaginlarni o'rnatish va faollashtirish"
+
+#: wp-admin/network/index.php:25
+msgid "Add and manage sites or users"
+msgstr "Saytlar yoki foydalanuvchilarni qo'shish va boshqarish"
+
+#: wp-admin/network/index.php:24
+msgid "From here you can:"
+msgstr "Bu yerdan siz quyidagilarni qila olasiz:"
+
+#: wp-admin/network/index.php:23
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Tarmoq boshqaruviga xush kelibsiz! Bu yerdan ko'psaytli tarmog'ingizning barcha jihatlarini boshqarishingiz mumkin."
+
+#: wp-admin/network/upgrade.php:140
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress yangilandi! O'z holingizga qoldirishimizdan oldin tarmog'ingizdagi saytlarni alohida yangilab chiqishimiz kerak."
+
+#: wp-admin/network/upgrade.php:23
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Bu sahifadan faqat WordPressni yangilash (Tarmoq administratori menyusi yoki Uskunalar orqali) usuli bilan tizimni yangilaganingizdan keyingina foydalaning. Tarmoqni takomillashtirish tugmasi bosilgandan so'ng bir vaqtda beshtadan sayt tekshiruvdan o'tkazilib, tarmoqdagi har bir sayt bazasi yangilanadi."
+
+#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:144
+msgid "Upgrade Network"
+msgstr "Tarmoqni takomillashtirish"
+
+#: wp-admin/includes/network.php:263 wp-admin/includes/network.php:615
+#: wp-admin/includes/network.php:668
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Subdirektoriya tarmoqlari o'ziga xos wp-content direktoriyalari bilan to'liq mutanosib bo'lmasligi mumkin."
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Berilgan kodlarni wp-config.php (<code>/*...stop editing...*/</code> deyilgan qatordan oldin) va <code>.htaccess</code> (mavjud WordPress qoidalarining ustidan yozib) fayllariga qo'ying."
+
+#: wp-admin/network/settings.php:440
+msgid "Language Settings"
+msgstr "Til sozlanmalari"
+
+#: wp-admin/network/settings.php:238
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
+msgstr "Sayt administratorlariga o'z saytlariga \"Foydalanuvchilar &rarr; Yangi qo'shish\" orqali yangi foydalanuvchilarni qo'shishga ruxsat berish."
+
+#: wp-admin/network/settings.php:57
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Super adminlar bundan keyin Sozlanmalar sahifasi orqali qo'shilmaydi. Endi siz Tarmoq administratori > Foydalanuvchilar bandiga o'tib, foydalanuvchi ismiga yoki uning tagidagi tahrirlash linkiga bosishingiz kerak. Shunda siz foydalanuvchi profilini o'zgartirish sahifasiga o'tkazilasiz va u yerda foydalanuvchining mansabini belgilash mumkin bo'ladi."
+
+#: wp-admin/network/site-users.php:264
+msgid "Enter the username and email."
+msgstr "Foydalanuvchi ismi va email manzilni kiriting."
+
+#: wp-admin/network/site-users.php:261
+msgid "User created."
+msgstr "Foydalanuvchi yaratildi."
+
+#: wp-admin/network/site-users.php:258
+msgid "Select a user to remove."
+msgstr "O'chirish uchun foydalanuvchini tanlang."
+
+#: wp-admin/network/site-users.php:252
+msgid "Select a user to change role."
+msgstr "Mansabini o'zgartirish uchun foydalanuvchini tanlang."
+
+#: wp-admin/network/site-users.php:246
+msgid "Enter the username of an existing user."
+msgstr "Mavjud foydalanuvchining foydalanuvchi ismini kiriting."
+
+#: wp-admin/network/site-users.php:240
+msgid "User is already a member of this site."
+msgstr "Foydalanuvchi allaqachon bu saytning a'zosi hisoblanadi."
+
+#: wp-admin/network/site-settings.php:78
+msgid "Site options updated."
+msgstr "Sayt sozlanmalari yangilandi."
+
+#: wp-admin/network/site-new.php:177 wp-admin/network/site-new.php:187
+msgid "Add New Site"
+msgstr "Yangi sayt qo'shish"
+
+#. translators: 1: Dashboard URL, 2: Network admin edit URL.
+#: wp-admin/network/site-new.php:170
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Sayt qo'shildi. <a href=\"%1$s\">Boshqaruv paneliga kiring</a> yoki <a href=\"%2$s\">Saytni tahrirlang</a>"
+
+#: wp-admin/network/site-new.php:25
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Bu sahifa orqali Super adminlar tarmoqqa yangi sayt qo'shishadi. Bu yerga ro'yxatdan o'tkazish sozlanmalari ta'sir o'tkaza olmaydi."
+
+#: wp-admin/network/site-info.php:121
+msgid "Site info updated."
+msgstr "Sayt ma'lumoti yangilandi."
+
+#: wp-admin/network/themes.php:416
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Shablon asosi saytda faol bo'lib turgan vaqtda uni o'chira olmaysiz."
+
+#: wp-admin/network/themes.php:301
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Shablonlar tarmoq administratori tomonidan har bir saytda alohida Saytni tahrirlash sahifasida faollashtirilishi mumkin (u yerda Shablonlar paneli bor); u yerga Barcha saytlar sahifasidagi Tahrirlash linki orqali o'tishingiz mumkin. Faqat tarmoq administratorlarigina shablonlarni o'rnatishi yoki tahrirlashi mumkin."
+
+#: wp-admin/network/themes.php:182
+msgid "No, return me to the theme list"
+msgstr "Yo'q, meni shablonlar ro'yxatiga o'tkaz"
+
+#: wp-admin/network/themes.php:173
+msgid "Yes, delete this theme"
+msgstr "Ha, bu shablonni o'chir"
+
+#: wp-admin/network/themes.php:159
+msgid "Are you sure you want to delete these themes?"
+msgstr "Bu shablonlarni o'chirish kerakligiga ishonchingiz komilmi?"
+
+#: wp-admin/network/themes.php:138
+msgid "You are about to remove the following theme:"
+msgstr "Siz quyidagi shablonlarni o'chirmoqchisiz:"
+
+#: wp-admin/network/themes.php:137
+msgid "This theme may be active on other sites in the network."
+msgstr "Bu shablon tarmoqdagi boshqa saytlarda faol bo'lishi mumkin."
+
+#: wp-admin/network/themes.php:136
+msgid "Delete Theme"
+msgstr "Shablonni o'chirish"
+
+#: wp-admin/network/site-themes.php:212
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Bu yerda tarmoq bo'yicha faollashtirilgan shablonlar ko'rsatilmagan."
+
+#: wp-admin/network/site-themes.php:208 wp-admin/network/themes.php:414
+msgid "No theme selected."
+msgstr "Birorta ham shablon belgilanmagan."
+
+#: wp-admin/network/site-themes.php:201 wp-admin/network/themes.php:380
+msgid "Theme disabled."
+msgstr "Shablon faoliyati to'xtatilgan."
+
+#: wp-admin/network/site-themes.php:192 wp-admin/network/themes.php:371
+msgid "Theme enabled."
+msgstr "Shablon faollashtirildi."
+
+#. translators: %s: Site title.
+#: wp-admin/network/site-info.php:126 wp-admin/network/site-settings.php:83
+#: wp-admin/network/site-themes.php:170 wp-admin/network/site-users.php:199
+msgid "Edit Site: %s"
+msgstr "Saytni tahrirlash: %s"
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-users.php:41
+msgid "Invalid site ID."
+msgstr "Sayt ID raqami yaroqsiz."
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:167
+msgid "Sorry, you are not allowed to delete the site %s."
+msgstr "Kechirasiz, bu saytni o'chirish uchun sizga ruxsat berilmagan."
+
+#: wp-admin/network/sites.php:39
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "To'q ranglar bilan yozilgan sarlavhalarni bosib jadvalni qayta tartiblashingiz mumkin."
+
+#: wp-admin/network/sites.php:36
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Tasdiqlash ekranidan keyingi o'chirish buyrug'ini ortga qaytarib bo'lmaydi."
+
+#: wp-admin/network/sites.php:34
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Panel sizni saytning Boshqaruv paneliga olib boradi."
+
+#: wp-admin/network/sites.php:33
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Alohida Saytni tahrirlash sahifasi uchun tahrirlash linki."
+
+#: wp-admin/network/sites.php:30
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Yangi qo'shish sizni Yangi sayt qo'shish sahifasiga olib boradi. Siz saytlar ichidan sayt nomi, ID raqami yoki IP manziliga ko'ra izlashingiz mumkin. Ekran sozlanmalari orqali bir sahifada nechta sayt ko'rsatilishini tanlashingiz mumkin."
+
+#: wp-admin/network/site-users.php:318 wp-admin/network/user-new.php:148
+msgid "Add User"
+msgstr "Fodalanuvchi qo'shish"
+
+#: wp-admin/network/user-new.php:55
+msgid "Cannot add user."
+msgstr "Foydalanuvchi qo'shish mumkin emas."
+
+#: wp-admin/network/user-new.php:22
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Yangi foydalanuvchi bandi tarmoqda yangi foydalanuvchi a'zoligini ochadi va u kishiga email orqali login va parol jo'natadi."
+
+#: wp-admin/network/menu.php:41
+msgid "Updates"
+msgstr "Yangilanishlar"
+
+#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:20
+msgid "Network Settings"
+msgstr "Tarmoq sozlanmalari"
+
+#: wp-admin/network/menu.php:80
+msgid "Installed Themes"
+msgstr "O'rnatilgan shablonlar"
+
+#: wp-admin/network/menu.php:52
+msgid "All Sites"
+msgstr "Barcha saytlar"
+
+#: wp-admin/includes/network.php:680
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Bu bosqichlarni tugatganingizdan so'ng tarmog'ingiz faol va sozlangan bo'ladi. Siz tarmoqqa qayta kirishingizga to'g'ri keladi."
+
+#: wp-admin/includes/network.php:545
+msgid "To make your installation more secure, you should also add:"
+msgstr "Sozlanmalarni yanada xavfsizroq qilish uchun quyidagini ham qo'shishingiz kerak:"
+
+#: wp-admin/includes/network.php:440
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Tarmoq saytlarini yaratish imkoniyatlarini faollashtirish uchun quyidagi vazifalarni amalga oshiring."
+
+#: wp-admin/includes/network.php:439
+msgid "Enabling the Network"
+msgstr "Tarmoqni faollashtirish"
+
+#: wp-admin/includes/network.php:428
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Iltimos, sozlanmalar qadamlarini tugating. Yangi tarmoq yaratish uchun ma'lumotlar bazasidan eski tarmoq jadvallarini bo'shatishingiz yoki o'chirishingiz kerak bo'ladi."
+
+#: wp-admin/includes/network.php:427
+msgid "An existing WordPress network was detected."
+msgstr "Avvaldan mavjud bo'lgan WordPress tarmog'i topildi."
+
+#: wp-admin/includes/network.php:422
+msgid "The original configuration steps are shown here for reference."
+msgstr "Eslatma uchun asl sozlanma bosqichlari ko'rsatilgan."
+
+#: wp-admin/includes/network.php:369
+msgid "Your email address."
+msgstr "Email manzilingiz."
+
+#: wp-admin/includes/network.php:360
+msgid "What would you like to call your network?"
+msgstr "Tarmog'ingizni nima deb atamoqchisiz?"
+
+#: wp-admin/includes/network.php:356 wp-admin/network/settings.php:153
+msgid "Network Title"
+msgstr "Tarmoq sarlavhasi"
+
+#: wp-admin/includes/network.php:335
+msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Yangi o'rnatilmayotganligi sababli WordPress tarmog'ingizdagi saytlar sub-domenlardan foydalanishi shart."
+
+#: wp-admin/includes/network.php:322
+msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Asosiy saytingiz papkada joylashganligi sababli WordPress tarmog'idagi saytlaringiz ham sub-direktoriyali bo'lishi shart."
+
+#: wp-admin/includes/network.php:312 wp-admin/includes/network.php:325
+#: wp-admin/includes/network.php:336
+msgid "The main site in a sub-directory installation will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Sub-direktoriyaga asoslangan asosiy sayt o'zgartirilgan permalink qurilmasini ishlatishiga to'g'ri keladi. Bu saytdagi mavjud linklarni buzishi mumkin."
+
+#: wp-admin/includes/network.php:297
+msgid "Network Details"
+msgstr "Tarmoq ma'lumotlari"
+
+#: wp-admin/includes/network.php:269 wp-admin/includes/network.php:283
+#: wp-admin/includes/network.php:343
+msgid "Server Address"
+msgstr "Server manzili"
+
+#. translators: 1: Host name.
+#: wp-admin/includes/network.php:251
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "masalan <code>%1$s/sayt1</code> va <code>%1$s/sayt2</code>"
+
+#: wp-admin/includes/network.php:246
+msgid "Sub-directories"
+msgstr "Sub-direktoriyalar"
+
+#. translators: 1: Host name.
+#: wp-admin/includes/network.php:239
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "masalan <code>sayt1.%1$s</code> va <code>sayt2.%1$s</code>"
+
+#: wp-admin/includes/network.php:234
+msgid "Sub-domains"
+msgstr "Sub-domenlar"
+
+#: wp-admin/includes/network.php:230
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Agar virtual host (sub-domen) funksiyasidan foydalanmoqchi bo'lsangiz DNS yozuvlaringizga wildcard qo'shishingiz talab etiladi."
+
+#: wp-admin/includes/network.php:227
+msgid "Addresses of Sites in your Network"
+msgstr "Tarmog'ingizdagi saytlar manzillari"
+
+#: wp-admin/includes/network.php:195
+msgid "Note:"
+msgstr "Eslatma:"
+
+#: wp-admin/includes/network.php:182
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Quyidagi joylarda ma'lumotlarni kiriting va siz WordPress saytlar tarmog'ini yaratishga tayyor bo'lasiz. Keyingi qadamlarda sozlanmalar fayllarini yaratamiz."
+
+#: wp-admin/includes/network.php:181
+msgid "Welcome to the Network installation process!"
+msgstr "Tarmoq o'rnatilishini kuzatishga xush kelibsiz!"
+
+#: wp-admin/includes/network.php:160
+msgid "Error: The network could not be created."
+msgstr "XATO: Tarmoq yaratilmadi."
+
+#: wp-admin/includes/network.php:142
+msgid "You cannot install a network of sites with your server address."
+msgstr "Server manzilingiz bilan saytlar tarmog'ini o'rnata olmaysiz."
+
+#: wp-admin/includes/network.php:133
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Tarmoq yaratilgandan so'ng plaginlaringizni qayta faollashtirib olasiz."
+
+#. translators: %s: URL to Plugins screen.
+#: wp-admin/includes/network.php:130
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Iltimos, tarmoq imkoniyatini yoqish uchun <a href=\"%s\">plaginlaringiz faoliyatini to'xating</a>."
+
+#: wp-admin/network.php:72
+msgid "Network"
+msgstr "Tarmoq"
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Subdirektoriya saytlar tanlovi bir oydan oshiq vaqt avval yaratilgan tarmoqlar uchun &#8220;/blog/&#8221; permalinki muammosi sababli o'chirilgan. Kelajakda e'lon qilinadigan versiyalarda bu muammoni bartaraf qilamiz."
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Siz bu kodni qo'shib, brauzeringiz oynasini yangilasangiz ko'psaytlik faollashadi. Tarmoq admin navigatsiyasi menyusida bo'lgan joriy ko'rinish qo'shilgan kod arxivini saqlaydi. Mening saytlarim menyusidagi sayt nomi yoki Tarmoq administratori linklarini bosish orqali tarmoq administratori yoki sayt admin paneli sahifalariga o'tishingiz mumkin."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Keyingi sahifada sizga wp-config.php va .htaccess fayllaringizga qo'yish uchun alohida kodlar beriladi. Iltimos, FTP klient dasturi yordamida saytingiz fayllarini oching va u yerda kerakli fayllarga o'zgartirish kiriting. Agar .htaccess fayli sizda bo'lmasa, uni o'zingiz yaratishingizga to'g'ri kelishi mumkin. O'zgartirishdan avval har ikki fayldan zahira nusxa olishni unutmang!"
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your installation. Fill out the network details, and click Install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Subdomen yoki subdirektoriyani tanlang; bu tanlov keyinchalik faqat tarmoq o'rnatilishini qayta sozlash orqali o'zgartirilishi mumkin bo'ladi. Tarmoq ma'lumotlarini kiriting va o'rnatishni bosing. Agar muammoga duch kelsangiz, subdomen ishlatish uchun DNS yozuvlaringizda wildcard qo'shishingiz yoki subdirektoriya ishlatish uchun boshqa permalinklar sozlanmasiga o'zgartirishingiz kerak bo'ladi."
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Bu sahifada tarmog'ingizdagi saytlarni subdomenli (<code>sayt1.saytingiz.uz</code>) yoki subdirektoriyali (<code>saytingiz.uz/sayt1</code>) qilib sozlash imkonini beradi. Agar subdomendan foydalanmoqchi bo'lsangiz, Apache va DNS yozuvlaringizda wildcard subdomenlarga ruxsat berilgan bo'lishi kerak."
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "WordPress saytlar Tarmog'ini yaratish"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Tarmoq yaratish paneli WordPress ko'psaytli tarmoqlari uchun emas."
+
+#. translators: %s: User login.
+#: wp-admin/network/users.php:77
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Ogohlantiring! Foydalanuvchi o'zgartirilishi mumkin emas. %s tarmoqning administratori hisoblanadi."
+
+#: wp-admin/network/site-new.php:26
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Agar yangi sayt administratorining email manzili ma'lumotlar bazasida mavjud bo'lmasa, yangi foydalanuvchi yaratiladi."
+
+#: wp-admin/network/sites.php:38
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Sayt ID raqami faqat ichki tomonda ishlatiladi va saytning old tomonida foydalanuvchilarga ko'rsatilmaydi."
+
+#: wp-admin/network/sites.php:35
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Faoliyatni to'xtatish, Arxivlash va Spam tasdiqlash sahifasiga olib boradi. Ularning natijalari keyinchalik bekor qilinishi mumkin."
+
+#: wp-admin/network/sites.php:32
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Saytlar ustiga sichqoncha ko'rsatkichini olib borsangiz yettita tanlov ko'rsatiladi (asosiy saytda uchta):"
+
+#: wp-admin/network/settings.php:51
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Faoliyat sozlanmalarida tarmoq nomi yoki administrator email manzili o'zgartirilishi mumkin."
+
+#: wp-admin/network/users.php:223
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Yoppasiga tahrirlash foydalanuvchilarni butunlay o'chiradi yoki spam sifatida belgilaydi/belgilamaydi. Spam sifatida belgilangan foydalanuvchilarning maqolalari o'chiriladi va ular shu email manzillari bilan yana qayta tarmoqda ro'yxatdan o'ta olishmaydi."
+
+#: wp-admin/network/users.php:221
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Foydalanuvchi ismiga bosgan holda alohida foydalanuvchi profili sahifasiga o'tishingiz mumkin."
+
+#: wp-admin/network/settings.php:54
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Yuklash sozlanmalari bir martada yuklanishi mumkin bo'lgan fayl hajmi va alohida saytlarga yuklanadigan fayllar uchun ajratiladigan bo'sh joyni sozlash imkonini beradi. Alohida saytni tahrirlayotganda har bir sayt uchun alohida hajm belgilashingiz mumkin. Ruxsat berilgan fayl turlari probel yordamida ajratilib ko'rsatilishi kerak."
+
+#: wp-admin/network/sites.php:37
+msgid "Visit to go to the front-end site live."
+msgstr "Saytning old tomonini ko'rish uchun o'ting."
+
+#: wp-admin/network/users.php:224
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Istalgan foydalanuvchining profilini tahrirlash orqali unga Super admin mansabini berishingiz mumkin."
+
+#: wp-admin/network/user-new.php:23
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Tarmoqdan saytsiz ro'yxatdan o'tgan foydalanuvchilarga Obunachi maqomi berialdi va ular asosiy saytning boshqaruv paneliga yo'naltiriladilar. U yerda foydalanuvchilar o'z profillarini boshqara olishadi. Saytsiz foydalanuvchilar toki o'zlariga sayt ochmagunlariga qadar profillarida faqat Panel va Mening saytlarim menyusini ko'ra olishadi."
+
+#: wp-admin/network/users.php:222
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "Foydalanuvchilar ro'yxatidan yuqorida joylashgan belgilardan foydalangan holda ro'yxat va tasnif ko'rinishini tanlashingiz hamda jadval sarlavhalarini bosgan holda jadval tarkibini tartiblashingiz mumkin."
+
+#: wp-admin/network/users.php:219
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Bu jadvalda tarmoqdagi barcha foydalanuvchilar hamda ularga ta'luqli saytlar ko'rsatiladi."
+
+#: wp-admin/network/upgrade.php:25
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Agar bu jarayon qandaydir sababga ko'ra amalga oshmasa, foydalanuvchilar o'z saytlariga kirganda ular majburan yangilashga yo'naltiriladilar."
+
+#: wp-admin/network/upgrade.php:24
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Agar asosda yangilanish amalga oshirilmagan bo'lsa, ushbu tugmani bosish hech qanday samara bermaydi."
+
+#: wp-admin/network/themes.php:300
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Agar tarmoq administratori biror shablon faoliyatini to'xtatsa, u boshqa saytlarda tanlangan holda qolishi mumkin. Agar boshqa shablon tanlansa, faoliyati to'xtatilgan avvalgi shablon saytning Shablonlar sahifasida ko'rinmaydi."
+
+#: wp-admin/network/themes.php:299
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Bu sahifada alohida saytlar o'zlari uchun tanlashi mumkin bo'lgan shablonlar ro'yxatiga qaysilari kirishi yoki kirmasligini belgilaydi. Bu yerda saytlarning joriy ishlatilayotgan shablonlari o'zgartirilmaydi."
+
+#: wp-admin/network/sites.php:31
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Bu tarmoqdagi barcha saytlarning asosiy jadvali hisoblanadi. Jadvalning tepa o'ng tomonidagi belgilardan foydalanib ro'yxat yoki tasnif ko'rinishiga o'tishingiz mumkin."
+
+#: wp-admin/network/settings.php:56
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Menyu sozlanmalarida Super admin bo'lmaganlardan plagin menyusini yoqish/o'chirish boshqarilishi mumkin. Plaginlarni oddiy adminlar emas faqat Super adminlar boshqara oladigan qilishingiz mumkin."
+
+#: wp-admin/network/settings.php:53
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Tarmoqda yangi sayt yaratilganda unga odatiy sozlanmalar joriy etiladi. Bu sozlanmalarga yangi sayt foydalanuvchisiga email orqali yuboriladigan xush kelibsiz xabari, yangi maqola, yangi sahifa, fikr, fikr muallifi ismi va fikr URL manzili kiradi."
+
+#: wp-admin/network/settings.php:52
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Ro'yxatdan o'tish sozlanmalari ommaviy a'zolikni yoqishi/o'chirishi mumkin. Agar hammaga sayt ochish uchun ruxsat bersangiz, spamdan himoyalovchi plagin o'rnating. Tarmoqda ishlatilishi ta'qiqlangan sayt nomlarini vergul bilan emas, probel bilan ajratishingiz kerak"
+
+#: wp-admin/network/settings.php:50
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Bu sahifadagi sozlanmalar butun tarmoqqa tegishli hisoblanadi. Tarmoqdagi birinchi sayt eng asosiysi hisoblanadi va tarmoqdagi boshqa barcha saytlar o'z sozlanmalarini aynan ana shu asosiy saytdan olishadi."
+
+#. translators: %s: Reserved names list.
+#: wp-admin/network/site-new.php:59
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "Quyidagi so'zlar WordPress funksiyalari uchun himoyalangan va blog ismlari sifatida ishlatilishi mumkin emas: %s"
+
+#: wp-admin/network/upgrade.php:124
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Agar brauzeringiz sizni avtomatik tarzda keyingi sahifaga olib o'tmasa, bu linkni bosing:"
+
+#: wp-admin/network/settings.php:301
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Agar qaysidir domenni ro'yxatga olishdan cheklamoqchi bo'lsangiz. Bir qatorda bitta domen."
+
+#: wp-admin/network/settings.php:281
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Agar faqat ma'lum domenlargina ro'yxatdan o'tkazilsin, desangiz. Bir qatorda bitta domen."
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "Bo'sh sayt yarata olmayman."
+
+#: wp-admin/network/users.php:256
+msgid "Users removed from spam."
+msgstr "Foydalanuvchilar spamdan olib tashlandi."
+
+#: wp-admin/network/sites.php:338
+msgid "Site marked as spam."
+msgstr "Sayt spam sifatida belgilandi."
+
+#: wp-admin/network/sites.php:335
+msgid "Site removed from spam."
+msgstr "Sayt spamdan olib tashlandi."
+
+#: wp-admin/network/sites.php:311
+msgid "Sites marked as spam."
+msgstr "Saytlar spam sifatida belgilandi."
+
+#: wp-admin/network/sites.php:308
+msgid "Sites removed from spam."
+msgstr "Saytlar spamdan olib tashlandi."
+
+#: wp-admin/network/users.php:259
+msgid "Users deleted."
+msgstr "Foydalanuvchilar o'chirildi."
+
+#: wp-admin/network/users.php:253
+msgid "Users marked as spam."
+msgstr "Foydalanuvchilar spam sifatida belgilandi."
+
+#: wp-admin/network/sites.php:332
+msgid "Site deactivated."
+msgstr "Sayt faoliyati to'xatildi."
+
+#: wp-admin/network/sites.php:329
+msgid "Site activated."
+msgstr "Sayt faollashtirildi."
+
+#: wp-admin/network/sites.php:326
+msgid "Site unarchived."
+msgstr "Sayt arxivdan chiqarildi."
+
+#: wp-admin/network/sites.php:323
+msgid "Site archived."
+msgstr "Sayt arxivlandi."
+
+#: wp-admin/network/sites.php:317
+msgid "Site deleted."
+msgstr "Sayt o'chirildi."
+
+#: wp-admin/network/sites.php:314
+msgid "Sites deleted."
+msgstr "Saytlar o'chirildi."
+
+#: wp-admin/network/sites.php:105 wp-admin/network/sites.php:223
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "Kechirasiz, joriy saytni o'zgartira olmaysiz."
+
+#: wp-admin/network/site-new.php:126
+msgid "There was an error creating the user."
+msgstr "Foydalanuvchini yaratishda xatolik yuz berdi."
+
+#: wp-admin/network/settings.php:409
+msgid "Upload file types"
+msgstr "Yuklanadigan fayl turlari"
+
+#. translators: %s: Number of megabytes to limit uploads to.
+#: wp-admin/network/settings.php:397
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Yuklanadigan jami fayllar hajmini %s MB qilib cheklash"
+
+#: wp-admin/network/settings.php:383
+msgid "The URL for the first comment on a new site."
+msgstr "Yangi saytdagi ilk fikr URL manzili."
+
+#: wp-admin/network/settings.php:365
+msgid "The author of the first comment on a new site."
+msgstr "Yangi saytdagi ilk fikr muallifi."
+
+#: wp-admin/network/settings.php:356
+msgid "The first comment on a new site."
+msgstr "Yangi saytdagi birinchi fikr."
+
+#: wp-admin/network/settings.php:346
+msgid "The first page on a new site."
+msgstr "Yangi saytdagi birinchi sahifa."
+
+#: wp-admin/network/settings.php:336
+msgid "The first post on a new site."
+msgstr "Yangi saytda ilk maqola."
+
+#: wp-admin/network/upgrade.php:73
+msgid "All done!"
+msgstr "Hammasi bo'ldi!"
+
+#: wp-admin/network/settings.php:206
+msgid "Both sites and user accounts can be registered"
+msgstr "Foydalanuvchilar ham, saytlar ham ro'yxatdan o'tkazilishi mumkin."
+
+#: wp-admin/network/settings.php:205
+msgid "Logged in users may register new sites"
+msgstr "Tizimga kirgan foydalanuvchilar yangi saytlarni ro'yxatdan o'tkazishi mumkin."
+
+#: wp-admin/network/settings.php:204
+msgid "User accounts may be registered"
+msgstr "Foydalanuvchilar ro'yxatdan o'tishi mumkin."
+
+#: wp-admin/network/settings.php:203
+msgid "Registration is disabled"
+msgstr "Ro'yxatdan o'tish o'chirilgan."
+
+#: wp-admin/network/settings.php:493
+msgid "Enable administration menus"
+msgstr "Boshqaruv menyularini faollashtirish"
+
+#: wp-admin/network/settings.php:388
+msgid "Upload Settings"
+msgstr "Yuklash sozlanmalari"
+
+#: wp-admin/network/settings.php:307
+msgid "New Site Settings"
+msgstr "Yangi sayt sozlanmalari"
+
+#: wp-admin/network/settings.php:190
+msgid "Registration Settings"
+msgstr "Ro'yxatdan o'tish sozlanmalari"
+
+#: wp-admin/network/settings.php:150
+msgid "Operational Settings"
+msgstr "Faoliyat sozlanmalari"
+
+#: wp-admin/network/site-new.php:91
+msgid "Missing email address."
+msgstr "Email manzil yozilmagan."
+
+#: wp-admin/network/site-new.php:87
+msgid "Missing or invalid site address."
+msgstr "Sayt manzili yozilmagan yoki yaroqsiz."
+
+#: wp-admin/network/upgrade.php:124
+msgid "Next Sites"
+msgstr "Keyingi saytlar"
+
+#: wp-admin/network/settings.php:391
+msgid "Site upload space"
+msgstr "Saytning yuklash joyi"
+
+#: wp-admin/network/settings.php:316
+msgid "The welcome email sent to new site owners."
+msgstr "Yangi sayt egalariga yuboriladigan xush kelibsiz xabarnomasi"
+
+#: wp-admin/network/settings.php:256
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Foydalanuvchilar quyidagi saytlarni ro'yxatdan o'tkaza olishmaydi. Nomlarni probel bilan ajrating."
+
+#: wp-admin/network/settings.php:231
+msgid "Send the network admin an email notification every time someone registers a site or user account"
+msgstr "Har safar kimdir yangi foydalanuvchi a'zoligini ochsa yoki yangi saytni ro'yxatdan o'tkazsa tarmoq administratoriga email xabarnoma yubor."
+
+#: wp-admin/includes/network.php:365 wp-admin/network/settings.php:160
+msgid "Network Admin Email"
+msgstr "Tarmoq administratorining email manzili"
+
+#: wp-admin/network/site-new.php:263
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Agar yuqoridagi email manzili ma'lumotlar bazasida mavjud bo'lmasa, yangi foydalanuvchi yaratiladi."
+
+#: wp-admin/network/site-new.php:259
+msgid "Admin Email"
+msgstr "Admin email manzili"
+
+#: wp-admin/network/site-new.php:275
+msgid "Add Site"
+msgstr "Sayt qo'shish"
+
+#: wp-admin/network/settings.php:443
+msgid "Default Language"
+msgstr "Asosiy til"
+
+#: wp-admin/network/settings.php:419
+msgid "Max upload file size"
+msgstr "Yuklanadigan faylning maksimal hajmi"
+
+#: wp-admin/network/settings.php:379
+msgid "First Comment URL"
+msgstr "Birinchi fikr URL manzili"
+
+#: wp-admin/network/settings.php:361
+msgid "First Comment Author"
+msgstr "Birinchi fikr muallifi"
+
+#: wp-admin/network/settings.php:351
+msgid "First Comment"
+msgstr "Birinchi fikr"
+
+#: wp-admin/network/settings.php:341
+msgid "First Page"
+msgstr "Birinchi sahifa"
+
+#: wp-admin/network/settings.php:326
+msgid "The welcome email sent to new users."
+msgstr "Yangi foydalanuvchilarga yuboriladigan xush kelibsiz xabarnomasi"
+
+#: wp-admin/network/settings.php:321
+msgid "Welcome User Email"
+msgstr "Foydalanuvchi email xabari"
+
+#: wp-admin/network/settings.php:311
+msgid "Welcome Email"
+msgstr "Xush kelibsiz email xabari"
+
+#: wp-admin/network/settings.php:287
+msgid "Banned Email Domains"
+msgstr "Ta'qiqlangan email domenlari"
+
+#: wp-admin/network/settings.php:262
+msgid "Limited Email Registrations"
+msgstr "Cheklangan email a'zoliklari"
+
+#: wp-admin/network/settings.php:243
+msgid "Banned Names"
+msgstr "Ta'qiqlangan nomlar"
+
+#: wp-admin/network/settings.php:236
+msgid "Add New Users"
+msgstr "Yangi foydalanuvchi qo'shish"
+
+#: wp-admin/network/settings.php:224
+msgid "Registration notification"
+msgstr "A'zolik xabarnomasi"
+
+#: wp-admin/network/settings.php:193
+msgid "Allow new registrations"
+msgstr "Yangi a'zoliklarga ruxsat berish"
+
+#: wp-admin/network/site-users.php:267
+msgid "Duplicated username or email address."
+msgstr "Foydalanuvchi ismi yoki email manzil avvaldan mavjud."
+
+#: wp-admin/network/user-new.php:41
+msgid "Cannot create an empty user."
+msgstr "Bo'sh foydalanuvchi yaratish mumkin emas."
+
+#: wp-admin/network/sites.php:121 wp-admin/network/sites.php:208
+msgid "Confirm"
+msgstr "Tasdiqlash"

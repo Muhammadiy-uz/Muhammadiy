@@ -1,2 +1,5 @@
-# Muhammadiy-uz
-## branch: cms-wordpress-5.8.1-ru_RU
+# Muhammadiy / branch: cms-wordpress
+### other info
+WordPress admin panel: 
+* Login: admin
+* Parol: parol456

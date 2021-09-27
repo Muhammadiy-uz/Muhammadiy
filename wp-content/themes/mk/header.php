@@ -30,3 +30,5 @@
                 <body class="home blog">
     docs: https://developer.wordpress.org/reference/functions/body_class/
 -->
+
+<?php wp_body_open(); ?>

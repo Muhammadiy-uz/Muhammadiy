@@ -31,5 +31,6 @@ Email: asakew@ya.ru / [Telegram profil](https://t.me/asakew)
 
 Telegram: [Kanal](https://t.me/Muhammadiy_izdoshlari) / [Guruh](https://t.me/joinchat/0PnNb_Jpr4U3MGUy)
 
-## WekaTime stats
-https://wakatime.com/@asakew/projects/pvdnjqhqwm
+### Stats
+* WekaTime stats: https://wakatime.com/@asakew/projects/pvdnjqhqwm
+* GitMemory stats: https://gitmemory.com/Muhammadiy-uz/Muhammadiy

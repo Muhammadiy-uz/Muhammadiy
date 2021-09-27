@@ -19,4 +19,7 @@
     https://github.com/joshbuchea/HEAD/
 -->
     <?php wp_head(); ?>
+<!--
+    wp_head() - admin paneldan yoqiladigan plugins va themes head kodlarini avtomatik import qiladi.
+-->
 </head>

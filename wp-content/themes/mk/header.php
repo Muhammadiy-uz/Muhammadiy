@@ -10,3 +10,4 @@
  * @subpackage Theme_Name
  */
 ?>
+<!DOCTYPE html>

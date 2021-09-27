@@ -5,6 +5,6 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Theme_Name
+ * @subpackage Muhammadiy_uz
  */
 ?>

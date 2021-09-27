@@ -5,6 +5,6 @@
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
  * @package WordPress
- * @subpackage Theme_Name
+ * @subpackage Muhammadiy_uz
  */
 ?>

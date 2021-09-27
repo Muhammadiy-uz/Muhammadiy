@@ -23,3 +23,10 @@
     wp_head() - admin paneldan yoqiladigan plugins va themes head kodlarini avtomatik import qiladi.
 -->
 </head>
+
+<body <?php body_class(); ?>>
+<!--
+    review:     <body class="home blog logged-in admin-bar no-customize-support">
+                <body class="home blog">
+    docs: https://developer.wordpress.org/reference/functions/body_class/
+-->

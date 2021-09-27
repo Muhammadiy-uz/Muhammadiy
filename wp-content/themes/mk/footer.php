@@ -10,3 +10,9 @@
  * @subpackage Theme_Name
  */
 ?>
+
+<footer>
+    <!-- ... -->
+</footer>
+
+<?php wp_footer(); ?>

@@ -20,7 +20,7 @@
 -->
     <?php wp_head(); ?>
 <!--
-    wp_head() - admin paneldan yoqiladigan plugins va themes head kodlarini avtomatik import qiladi.
+    wp_head() - admin paneldan yoqiladigan plugins va themes head kodlari/linklarni avtomatik import qiladi.
 -->
 </head>
 

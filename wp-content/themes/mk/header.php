@@ -11,3 +11,6 @@
  */
 ?>
 <!DOCTYPE html>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+</head>

@@ -20,7 +20,7 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'mu' );
+define( 'DB_NAME', 'mk' );
 
 /** Имя пользователя MySQL */
 define( 'DB_USER', 'root' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'Fiyqz[Ao8Wr/^I(JV#<.P_Un<tK&{g^b@eTtZ6c68}ES#-wqxFcsa0u*;+Bgbzod' );
-define( 'SECURE_AUTH_KEY',  '-#7b$&gr|]v@w/!NoGb6B%2I3Mm)3A9eS)1Nz)|(|?!*/~A_<R!x2q]Mm>IJgZ`u' );
-define( 'LOGGED_IN_KEY',    '?R_m!)S4m5|:6JUMf@Uf[LuU92as$|HfUg=sT*OEh.rbY(i2Ck;lbiy.4w(#mdW^' );
-define( 'NONCE_KEY',        '~^el:IsbW:#|yQ*@Rn@j6UC[O+bT;bkwOglmd_rpGzx1NP0UP>lb&MS8}tl,LVQK' );
-define( 'AUTH_SALT',        'hA!b{u;!B<,CKrXkDP4?j+cz3@uI3|}RC0%u!uo7fB,Rf|;LngVh02(+f_+pJ@o:' );
-define( 'SECURE_AUTH_SALT', 'h8 X-AeY$8W#.#xqtw*%7tv<lij1n5w6tG|`+V%]sw^remIwIL%r:< e_)Wsk~*B' );
-define( 'LOGGED_IN_SALT',   '&25ORwK|enf[Etg~nTRQGi.,FqsDu(y60<k_-936OwL-v/7:K:u-W7<0.A(;[jBF' );
-define( 'NONCE_SALT',       '*9q=bAx6jV W^!WKeI#^Fmw3(61Q$5jN.Lq1M)R(52)g]~A&_%%OkiVQ=Y;B2r^0' );
+define( 'AUTH_KEY',         'dzYh#~riH|t+9Ov#kS$B-:FNGjN{I*2qj[_)HKMn0SUOf;:U/:~FEKxTCw8vSvOy' );
+define( 'SECURE_AUTH_KEY',  '|z#1,rm5+|v`jfgnN1-{!KTS-Y+z~p <7je,_?&{JP~GT`#>;?GG*2j9juo8LiWZ' );
+define( 'LOGGED_IN_KEY',    '4@2/?si@C@hznHsR)tyqpcB8tmu0=X6_e!abl@XACcIC/Ck]d}c5Bw} I}c Ge1|' );
+define( 'NONCE_KEY',        'lmm*B]! <ST/o@laJ+uL 0s`T}bDciVX6tXuO,KqHkDc50zt;VHw[u 23o8tF@<6' );
+define( 'AUTH_SALT',        'J>K$Sm{Dh#tUi1~fM;8;2C>yPHg-U1](Q?6ZnB+w~Z_@qQou/2cEwDqAdWKZ` fU' );
+define( 'SECURE_AUTH_SALT', 'PqTg]>G`66Sjt!-?riI4Yk%|<,jQr/]=R%?R7`-Hq%&Y?D~7#`O.CK4V5?H[Rt;#' );
+define( 'LOGGED_IN_SALT',   '@Wi{$x|+Q~yX2qAcArapr~~[Yfph-]pr14Hg=KS;J(7nrU+o@gBLtb<I<Jq;jD9|' );
+define( 'NONCE_SALT',       ':IIT D)aio60qMB_>%9>=SNmL<5uzX5p(f*ia[tZN#evu$mHcesDR`WC8kiSS[U2' );
 
 /**#@-*/
 
@@ -88,7 +88,7 @@ define( 'WP_DEBUG', false );
 
 /** Абсолютный путь к директории WordPress. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+    define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Инициализирует переменные WordPress и подключает файлы. */

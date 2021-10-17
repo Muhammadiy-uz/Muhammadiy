@@ -9,6 +9,10 @@ $border-radius-asa: 1.3rem;
     border-radius: $border-radius-sm; ;
 }
 
+.kkSum {
+    float: right;
+}
+
 .kkSum::after {
-  content: " so'm";
+  content: " uzs";
 }

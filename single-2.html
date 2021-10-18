@@ -20,6 +20,10 @@
 		-moz-user-select: none;
 		user-select: none;
 	}
+	.text-justify {
+		text-indent: 2rem;
+		text-align: justify;
+	}
 	</style>
 </head>
 
@@ -119,7 +123,8 @@
 											<rect width="100%" height="100%" fill="#198754" />
 											<text x="50%" y="50%" fill="#dee2e6" dy=".3em">Thumbnail</text>
 										</svg>
-									</div> s </div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</section>
@@ -143,7 +148,7 @@
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h3 class="modal-title" id="exampleModalLabel">Xayriya usulini tanlang</h3>
+										<h3 class="modal-title" id="exampleModalLabel">Tulov tizimini tanlang</h3>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
 									<div class="modal-body">
@@ -175,36 +180,88 @@
 			</div>
 			<!-- .row -->
 		</section>
-		<article id="user-info">
-			<div class="row">
+		<section class="mt-3" id="user-info">
+			<div class="row g-3">
 				<div class="col-md-8">
 					<div class="bg-white radius shadow p-3">
-						<ol class="list-group radius-sm mb-3">
-							<li class="list-group-item d-flex justify-content-between align-items-start">
-								<div class="ms-2 me-auto">
-									<div class="fw-bold">Ism</div>
-								</div> <span>Ali</span> </li>
-							<li class="list-group-item d-flex justify-content-between align-items-start">
-								<div class="ms-2 me-auto">
-									<div class="fw-bold">Yoshi</div>
-								</div> <span class="user-year">14</span> </li>
-							<li class="list-group-item d-flex justify-content-between align-items-start">
-								<div class="ms-2 me-auto">
-									<div class="fw-bold">Tashxis</div>
-								</div> <span>O'rtacha triventrikulyar gidrosefali</span> </li>
-							<li class="list-group-item d-flex justify-content-between align-items-start">
-								<div class="ms-2 me-auto">
-									<div class="fw-bold">Davolash</div>
-								</div> <span>Moldova, Neokinetika</span> </li>
-						</ol>
-						<h3 class="fw-bold lh-1 pt-3">Ota-Onasidan xabar:</h3>
-						<p class="fw-normal">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nisi tempore et, incidunt id! Eum, ipsam? Inventore distinctio culpa numquam minima totam quia eveniet dolores, atque voluptates optio, id repudiandae ullam.</p>
+						<ul class="list-group list-group-flush">
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+						    Yoshi
+						    <span>14</span>
+						  </li>
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+						    Turkum
+						    <span>Nogiron</span>
+						  </li>
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+						    Tashxis
+						    <span>Neyroblastoma</span>
+						  </li>
+						  	
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+						    Yashash manzil:
+						    <span>Jizzax viloyati, Baxmal tumani</span>
+						  </li>
+						  <li class="list-group-item d-flex justify-content-between align-items-center">
+						    Davolash hududi:
+						    <span>Jizzax viloyati, Usmat</span>
+						  </li>
+						</ul>
+
+						<h3 class="fw-bold lh-1 pt-3">Xabar:</h3>
+						<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita porro sit, similique eveniet quas nisi, illo. Reprehenderit rem cupiditate veniam, facilis consequuntur unde doloribus non placeat provident, quae! Ullam assumenda reiciendis deserunt dolorem at, aperiam vitae soluta velit libero possimus iste temporibus laudantium reprehenderit aspernatur ipsam explicabo eos error alias quidem. Asperiores eveniet itaque esse id repellendus nesciunt aut, porro dolores facilis obcaecati, perspiciatis earum? Quibusdam corporis molestias maxime natus laborum, adipisci perspiciatis nam ipsa dignissimos aliquam odio minus numquam eveniet, voluptatibus aut tempora aliquid error. Perferendis quaerat iste nostrum magnam totam. Ratione dolor rem modi, in et dolore ducimus.	</p>
 					</div>
 				</div>
-				<div class="col-md-4">Lorem, ipsum dolor.</div>
+				<div class="col-md-4">
+					<!-- nav-tabs -->
+					<nav>
+						<div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+							<button class="nav-link active" id="nav-pkarta-tab" data-bs-toggle="tab" data-bs-target="#nav-pkarta" type="button" role="tab" aria-controls="nav-pkarta" aria-selected="false">Plastik karta</button>
+							<button class="nav-link" id="nav-bank-tab" data-bs-toggle="tab" data-bs-target="#nav-bank" type="button" role="tab" aria-controls="nav-bank" aria-selected="false">Bank o'tkazmasi</button>
+							<button class="nav-link" id="nav-sms-tab" data-bs-toggle="tab" data-bs-target="#nav-sms" type="button" role="tab" aria-controls="nav-sms" aria-selected="true">SMS</button>
+							<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="true">Aloqa</button>
+						</div>
+					</nav>
+					<!-- tab-content -->
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade active show" id="nav-pkarta" role="tabpanel" aria-labelledby="nav-pkarta-tab">
+							<p>Plastik karta raqami</p>
+						</div>
+						<div class="tab-pane fade" id="nav-bank" role="tabpanel" aria-labelledby="nav-bank-tab">
+							<p>Bank o'tkazmasi raqami</p>
+						</div>
+						<div class="tab-pane fade" id="nav-sms" role="tabpanel" aria-labelledby="nav-sms-tab">
+							<p>Отправь смс с текстом 751 на номер:</p>
+							<ul class="list-group list-group-flush">
+						  		<li class="list-group-item">
+									* 2910 (Unite), цена 1 смс - 45 MDL
+						  		</li>
+						  		<li class="list-group-item">
+									* 2910 (Moldcell), цена 1 смс - 45 MDL
+						  		</li>
+						  	</ul>
+						</div>
+						<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+							<p>user contact</p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</article>
+		</section>
 	</main>
+	<footer class="container-fluid">
+		<div class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top">
+			<p class="col-lg-4 col-sm-6 mb-0 text-muted">&copy; 2021</p>
+			<a href="/" class="col-lg-4 col-sm-6 d-flex justify-content-end justify-content-lg-center mb-md-0 me-md-auto link-dark text-decoration-none">Muhammadiy-uz</a>
+			<ul class="nav col-lg-4 col-md-12 d-flex justify-content-center justify-content-lg-end m-auto">
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Bosh sahifa</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Hamkorlar</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Donatlar tarixi</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQ</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Aloqa</a></li>
+			</ul>
+		</div>
+	</footer>
 	<script src="assets/js/bootstrap.bundle.js"></script>
 	<script src="assets/js/lazysizes.min.js"></script>
 </body>

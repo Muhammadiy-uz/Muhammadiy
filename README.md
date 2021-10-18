@@ -1,4 +1,4 @@
-# Muhammadiy
+# Muhammadiy izdoshlari
 **Muhammadiy - payg'ambarimiz izdoshlari degan ma'nosi.**
 
 Yordamga muxtoj odamlar, nogironlarni davolanishiga e'lonlarni joylashtiradigan proekt/sayt. Moddiy yoki ma'naviy qo'llab-quvvatlaydigan insonlarga xayriya/Donat qilishadigan sayt buladi degan umidaman) va xarakat qilaman)

@@ -4,13 +4,12 @@
 3. [ ] Ustavning asl va ikkita tasdiqlangan nusxalari
 4. [ ] Ta'sischilar to'g'risidagi ma'lumotlar ikki nusxada
 5. [ ] Fondning joylashgan joyi to'g'risidagi ma'lumotlar
-6. [ ] ta'sis yig'ilishi bayonnomasining ikkita tasdiqlangan nusxasi
+6. [ ] Ta'sis yig'ilishi bayonnomasining ikkita tasdiqlangan nusxasi
 7. [ ] Lizing beruvchidan kafolat xati
 8. [ ] Kongresslar va konferentsiyalar bayonnomalari (mavjud bo'lsa)
 9. [ ] Kvitansiya
 10. [ ] Davlat bojlarini to'lash to'g'risida
-11. [ ] Xayriya jamg'armasi soliq organlarida ro'yxatdan o'tishi
-TIN raqami va ROSSTAT sertifikatini olishi kerak
+11. [ ] Xayriya jamg'armasi soliq organlarida ro'yxatdan o'tishi TIN raqami va ROSSTAT sertifikatini olishi kerak
 12. [ ] Bankda hisob raqami va elektron hamyonlar
 
 ### v2:
@@ -20,4 +19,3 @@ TIN raqami va ROSSTAT sertifikatini olishi kerak
 4. [ ]  Uy-joy uchun ijara shartnomasi yoki hujjatlar
 5. [ ]  Tashkilotning qonuniy va haqiqiy manzilining mavjudligi
 6. [ ]  Davlat bojining kvitansiyasi
-    

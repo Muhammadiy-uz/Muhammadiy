@@ -11,9 +11,12 @@ Yordamga muxtoj odamlar, nogironlarni davolanishiga e'lonlarni joylashtiradigan 
 2. Mahhaladan dalolatnoma.
 
 ## Aloqa:
-Muhammadiy izdoshlari Telegram [Kanal](https://t.me/Muhammadiy_izdoshlari/) / [Guruh](https://t.me/joinchat/0PnNb_Jpr4U3MGUy/)
+Akmal Sindarov: +998 91 297 09 54 /
+Email: asakew@yandex.ru / Telegram profil: https://t.me/asakew/
 
-Email: asakew@yandex.ru / [Telegram profil](https://t.me/asakew/)
+Muhammadiy izdoshlari Telegram Kanal: https://t.me/Muhammadiy_izdoshlari/ | Guruh: https://t.me/joinchat/0PnNb_Jpr4U3MGUy/
+
+GitHub: https://github.com/Muhammadiy-uz/Muhammadiy/
 
 ## Foydalanilayotgan manbalar:
 * CMS [WordPress](https://wordpress.com/)

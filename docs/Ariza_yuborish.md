@@ -1,7 +1,11 @@
 # Ariza yuborish / formlar
 
+## Ariza/E'loni qabul qilish shartlari:
+1. Kassaligi haqida shifokor yoki qanay kassalig bilan tashxis quyilganiligi haqida hujjat.
+2. Mahhaladan dalolatnoma.
+
 ## Aloqa ma'lumotlari
-	Ism, Familiya, Sharifi
+	Ism*, Familiya*, Sharifi
 	Yoshi*
 	Mamlakat, shahar *
 	Manzil *

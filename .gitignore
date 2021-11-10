@@ -4,4 +4,5 @@
 *.scss.map
 *debug.log
 prepros-6.config
-README.html
+prepros.config
+*.config

@@ -2,5 +2,6 @@
 *.css.map
 *.sass.map
 *.scss.map
+*debug.log
 prepros-6.config
 README.html
